@@ -16,3 +16,8 @@ jupyter
 notebook
 scipy
 folium
+lifelines
+pypdf
+reportlab
+ipywidgets
+pingouin
