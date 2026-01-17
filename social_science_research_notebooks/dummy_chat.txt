@@ -1,0 +1,13 @@
+12/01/2023, 10:00 - Alice: Hey everyone! How are we doing?
+12/01/2023, 10:05 - Bob: Good morning Alice! I am doing great.
+12/01/2023, 10:06 - Charlie: Hi guys. I'm running a bit late.
+12/01/2023, 10:10 - Alice: No worries Charlie. We haven't started yet.
+13/01/2023, 09:00 - Bob: Did anyone see the news?
+13/01/2023, 09:15 - Alice: Yes, it is crazy! 😱
+13/01/2023, 09:20 - Charlie: I missed it. What happened?
+14/01/2023, 18:00 - Alice: Meeting at 5pm tomorrow?
+14/01/2023, 18:05 - Bob: Works for me.
+14/01/2023, 18:10 - Charlie: 👍
+15/01/2023, 22:00 - Alice: I am so tired.
+15/01/2023, 22:01 - Bob: Go to sleep!
+16/01/2023, 08:00 - Charlie: Wakey wakey!
