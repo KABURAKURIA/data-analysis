@@ -4,8 +4,8 @@ This manual provides an overview of the tools available in this repository. All 
 
 ## Table of Contents
 
-- [WhatsApp Chat Analysis](#whatsapp-chat-analysis)
-- [Sentiment Analysis](#sentiment-analysis)
+- [WhatsApp Chat Analysis In-Depth](#whatsapp-chat-analysis-in-depth)
+- [Sentiment Analysis In-Depth](#sentiment-analysis-in-depth)
 - [Topic Modeling (LDA)](#topic-modeling-lda)
 - [Word Cloud & N-Grams](#word-cloud-n-grams)
 - [Named Entity Recognition (NER)](#named-entity-recognition-ner)
@@ -13,13 +13,13 @@ This manual provides an overview of the tools available in this repository. All 
 - [Text Preprocessing Pipeline](#text-preprocessing-pipeline)
 - [Survey Data Cleaning](#survey-data-cleaning)
 - [Descriptive Statistics](#descriptive-statistics)
-- [Likert Scale Analysis](#likert-scale-analysis)
+- [Likert Scale Analysis In-Depth](#likert-scale-analysis-in-depth)
 - [Hypothesis Testing (T-tests/ANOVA)](#hypothesis-testing-t-testsanova)
-- [Linear Regression Analysis](#linear-regression-analysis)
+- [Linear Regression Analysis In-Depth](#linear-regression-analysis-in-depth)
 - [Logistic Regression](#logistic-regression)
 - [Factor Analysis (PCA)](#factor-analysis-pca)
 - [Cluster Analysis](#cluster-analysis)
-- [Social Network Construction](#social-network-construction)
+- [Social Network Construction & Analysis](#social-network-construction-analysis)
 - [Network Centrality Measures](#network-centrality-measures)
 - [Community Detection](#community-detection)
 - [Time Series Analysis](#time-series-analysis)
@@ -54,7 +54,7 @@ This manual provides an overview of the tools available in this repository. All 
 - [Data Anonymization](#data-anonymization)
 - [Multiple Imputation for Missing Data](#multiple-imputation-for-missing-data)
 - [Exporting Results](#exporting-results)
-- [Repeated Measures ANOVA](#repeated-measures-anova)
+- [Repeated Measures ANOVA In-Depth](#repeated-measures-anova-in-depth)
 - [Mixed ANOVA (Split-Plot Design)](#mixed-anova-split-plot-design)
 - [Signal Detection Theory (SDT)](#signal-detection-theory-sdt)
 - [Reaction Time Analysis](#reaction-time-analysis)
@@ -64,14 +64,18 @@ This manual provides an overview of the tools available in this repository. All 
 - [Chi-Square Test of Independence](#chi-square-test-of-independence)
 - [Mediation Analysis with Bootstrapping](#mediation-analysis-with-bootstrapping)
 - [Plotting Interaction Effects](#plotting-interaction-effects)
+- [Data Analyst Roadmap & Guide](#data-analyst-roadmap-guide)
+- [SQL for Data Analysts](#sql-for-data-analysts)
+- [Advanced Visualization with Plotly](#advanced-visualization-with-plotly)
+- [Introduction to Transformers for NLP](#introduction-to-transformers-for-nlp)
 
 ---
 
-### WhatsApp Chat Analysis
+### WhatsApp Chat Analysis In-Depth
 
 **File:** `01_whatsapp_chat_analysis.ipynb`
 
-**Description:** This notebook demonstrates how to parse, clean, and analyze exported WhatsApp chat data. We will use regular expressions to extract dates, times, senders, and messages, and then use pandas and matplotlib/seaborn for analysis and visualization.
+**Description:** This notebook provides a comprehensive toolkit for analyzing exported WhatsApp chat data. It goes beyond simple counting to include sentiment analysis over time, response time analysis, and activity heatmaps.
 
 **Status:** Verified ✅
 
@@ -79,11 +83,11 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Sentiment Analysis
+### Sentiment Analysis In-Depth
 
 **File:** `02_sentiment_analysis.ipynb`
 
-**Description:** This notebook performs sentiment analysis on text data using TextBlob and NLTK (VADER).
+**Description:** This notebook provides a deep dive into sentiment analysis using two popular libraries: TextBlob and NLTK (VADER). We will compare their performance on a dataset of reviews, clean the text, and visualize the results.
 
 **Status:** Verified ✅
 
@@ -175,11 +179,11 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Likert Scale Analysis
+### Likert Scale Analysis In-Depth
 
 **File:** `10_likert_scale_analysis.ipynb`
 
-**Description:** Visualizing ordinal data.
+**Description:** This notebook focuses on analyzing and visualizing survey data collected on a Likert scale (e.g., Strongly Disagree to Strongly Agree). We will cover reliability analysis and specialized visualizations.
 
 **Status:** Verified ✅
 
@@ -199,11 +203,11 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Linear Regression Analysis
+### Linear Regression Analysis In-Depth
 
 **File:** `12_linear_regression.ipynb`
 
-**Description:** Predicting a continuous outcome variable based on one or more predictor variables.
+**Description:** This notebook covers linear regression with a focus on statistical inference and assumption checking, which is crucial for social science research. We will use `statsmodels` for detailed output.
 
 **Status:** Verified ✅
 
@@ -247,11 +251,11 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Social Network Construction
+### Social Network Construction & Analysis
 
 **File:** `16_network_construction.ipynb`
 
-**Description:** Creating nodes and edges from interaction data using NetworkX.
+**Description:** This notebook moves beyond basic graph creation to explore complex network analysis techniques using real-world-like data. We will analyze the famous Zachary's Karate Club graph and simulate a larger scale-free network.
 
 **Status:** Verified ✅
 
@@ -667,11 +671,11 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Repeated Measures ANOVA
+### Repeated Measures ANOVA In-Depth
 
 **File:** `51_repeated_measures_anova.ipynb`
 
-**Description:** Analyzing within-subjects designs where the same subjects are measured under multiple conditions.
+**Description:** This notebook performs a rigorous Repeated Measures ANOVA using `pingouin`. It includes data generation, assumption checking (Sphericity, Normality), and effect size calculation.
 
 **Status:** Verified ✅
 
@@ -784,5 +788,53 @@ This manual provides an overview of the tools available in this repository. All 
 **Status:** Verified ✅
 
 [Open Notebook](social_science_research_notebooks/60_interaction_plots.ipynb)
+
+---
+
+### Data Analyst Roadmap & Guide
+
+**File:** `61_data_analyst_roadmap.ipynb`
+
+**Description:** This notebook serves as a comprehensive guide through the Data Analyst Roadmap, mapping key concepts to practical Python implementations found within this repository. Whether you are starting with Excel concepts or moving into advanced Machine Learning, this guide links you to specific, deep-dive notebooks that demonstrate these skills using realistic social science data. **Roadmap Sections:** 1.  Introduction & Excel Equivalents 2.  Programming & Data Manipulation (Pandas) 3.  Data Collection (APIs, Scraping) 4.  Data Cleanup (Missing Data, Outliers) 5.  Exploratory Data Analysis (Visualization) 6.  Statistical Analysis (Hypothesis Testing, Regression) 7.  Machine Learning
+
+**Status:** Verified ✅
+
+[Open Notebook](social_science_research_notebooks/61_data_analyst_roadmap.ipynb)
+
+---
+
+### SQL for Data Analysts
+
+**File:** `62_sql_for_analysts.ipynb`
+
+**Description:** Structured Query Language (SQL) is the standard language for managing and manipulating relational databases. For a Data Analyst, it is often considered the most critical technical skill alongside Python/R. In this notebook, we will: 1.  Create a temporary SQLite database in memory. 2.  Populate it with synthetic social science data (Participants and Survey Responses). 3.  Perform essential SQL operations: `SELECT`, `WHERE`, `JOIN`, `GROUP BY`. 4.  Integrate SQL with Python using `pandas`.
+
+**Status:** Verified ✅
+
+[Open Notebook](social_science_research_notebooks/62_sql_for_analysts.ipynb)
+
+---
+
+### Advanced Visualization with Plotly
+
+**File:** `63_advanced_visualization_plotly.ipynb`
+
+**Description:** While `matplotlib` and `seaborn` are excellent for static publications, `plotly` allows for interactive data exploration (zooming, hovering, filtering). In this notebook, we will create: 1.  Interactive Scatter Plots (with hover data) 2.  Interactive Line Charts 3.  Box Plots with points 4.  3D Scatter Plots
+
+**Status:** Verified ✅
+
+[Open Notebook](social_science_research_notebooks/63_advanced_visualization_plotly.ipynb)
+
+---
+
+### Introduction to Transformers for NLP
+
+**File:** `64_intro_to_transformers.ipynb`
+
+**Description:** The Transformer architecture (e.g., BERT, GPT) has revolutionized Natural Language Processing (NLP). Unlike older methods (TF-IDF, simple RNNs), Transformers capture deep contextual relationships in text. In this notebook, we will use the **Hugging Face `transformers` library** to perform state-of-the-art NLP tasks with just a few lines of code. **Tasks:** 1.  **Sentiment Analysis**: Determining if a text is positive or negative. 2.  **Zero-Shot Classification**: Classifying text into categories the model hasn't explicitly seen during training.
+
+**Status:** Verified ✅
+
+[Open Notebook](social_science_research_notebooks/64_intro_to_transformers.ipynb)
 
 ---
