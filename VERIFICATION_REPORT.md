@@ -63,3 +63,6 @@
 | 59_mediation_bootstrapped.ipynb | PASS |  |
 | 60_interaction_plots.ipynb | PASS |  |
 | 61_data_analyst_roadmap.ipynb | PASS |  |
+| 62_sql_for_analysts.ipynb | PASS |  |
+| 63_advanced_visualization_plotly.ipynb | PASS |  |
+| 64_intro_to_transformers.ipynb | PASS |  |
