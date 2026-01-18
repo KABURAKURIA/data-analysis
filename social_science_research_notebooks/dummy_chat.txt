@@ -1,13 +1,800 @@
-12/01/2023, 10:00 - Alice: Hey everyone! How are we doing?
-12/01/2023, 10:05 - Bob: Good morning Alice! I am doing great.
-12/01/2023, 10:06 - Charlie: Hi guys. I'm running a bit late.
-12/01/2023, 10:10 - Alice: No worries Charlie. We haven't started yet.
-13/01/2023, 09:00 - Bob: Did anyone see the news?
-13/01/2023, 09:15 - Alice: Yes, it is crazy! 😱
-13/01/2023, 09:20 - Charlie: I missed it. What happened?
-14/01/2023, 18:00 - Alice: Meeting at 5pm tomorrow?
-14/01/2023, 18:05 - Bob: Works for me.
-14/01/2023, 18:10 - Charlie: 👍
-15/01/2023, 22:00 - Alice: I am so tired.
-15/01/2023, 22:01 - Bob: Go to sleep!
-16/01/2023, 08:00 - Charlie: Wakey wakey!
+01/01/2023, 21:00 - Diana: Good night everyone 💤
+[01/01/2023, 21:01:01] Charlie: Can you send me the file?
+[01/01/2023, 21:04:06] Diana: Can you send me the file?
+01/01/2023, 21:04 - Charlie: I'm busy right now.
+[01/01/2023, 21:06:19] Charlie: Great job! 👍
+[01/01/2023, 21:07:53] Diana: Thanks!
+01/01/2023, 21:09 - Alice: I'm busy right now.
+01/01/2023, 21:10 - Charlie: Hey guys, how is it going?
+01/01/2023, 21:12 - Diana: What are we having for lunch?
+02/01/2023, 00:12 - Alice: Let's catch up later.
+02/01/2023, 00:13 - Bob: Good night everyone 💤
+[02/01/2023, 00:14:11] Bob: Let's catch up later.
+02/01/2023, 00:16 - Diana: I am running late!
+[02/01/2023, 12:16:28] Alice: Good night everyone 💤
+02/01/2023, 15:16 - Diana: What are we having for lunch?
+[02/01/2023, 15:16:49] Bob: I disagree with that point.
+02/01/2023, 15:18 - Charlie: Did you see the news? 😱
+02/01/2023, 15:22 - Bob: This project is going well.
+02/01/2023, 21:22 - Diana: This project is going well.
+[03/01/2023, 09:22:37] Diana: I disagree with that point.
+[03/01/2023, 09:24:12] Diana: Hahaha that is so funny 😂
+[03/01/2023, 09:26:20] Alice: Did you see the news? 😱
+03/01/2023, 09:29 - Bob: Let's catch up later.
+03/01/2023, 09:34 - Diana: This project is going well.
+03/01/2023, 20:34 - Alice: Thanks!
+[04/01/2023, 05:34:03] Bob: Meeting is at 5pm.
+04/01/2023, 07:34 - Alice: I'm busy right now.
+04/01/2023, 07:37 - Alice: What are we having for lunch?
+04/01/2023, 07:40 - Alice: Great job! 👍
+[04/01/2023, 19:40:06] Charlie: Meeting is at 5pm.
+04/01/2023, 19:43 - Bob: Hahaha that is so funny 😂
+04/01/2023, 19:43 - Alice: Great job! 👍
+04/01/2023, 19:48 - Charlie: Good morning! ☀️
+04/01/2023, 19:48 - Diana: Good night everyone 💤
+04/01/2023, 19:49 - Bob: What are we having for lunch?
+[04/01/2023, 19:52:51] Diana: Meeting is at 5pm.
+[04/01/2023, 19:53:35] Bob: Good night everyone 💤
+[04/01/2023, 19:57:08] Charlie: Good morning! ☀️
+[05/01/2023, 11:57:08] Diana: What are we having for lunch?
+[05/01/2023, 12:02:05] Charlie: Great job! 👍
+05/01/2023, 12:02 - Diana: Did you see the news? 😱
+[05/01/2023, 23:02:59] Diana: Great job! 👍
+05/01/2023, 23:03 - Bob: Hahaha that is so funny 😂
+05/01/2023, 23:05 - Diana: I am running late!
+05/01/2023, 23:07 - Charlie: This project is going well.
+05/01/2023, 23:08 - Charlie: Hey guys, how is it going?
+05/01/2023, 23:10 - Diana: I disagree with that point.
+05/01/2023, 23:12 - Diana: What are we having for lunch?
+05/01/2023, 23:17 - Bob: Good night everyone 💤
+[05/01/2023, 23:19:46] Charlie: Thanks!
+06/01/2023, 10:19 - Alice: Did you see the news? 😱
+06/01/2023, 10:24 - Bob: Did you see the news? 😱
+06/01/2023, 10:27 - Alice: Hey guys, how is it going?
+[06/01/2023, 10:32:05] Bob: Great job! 👍
+06/01/2023, 10:34 - Bob: Hahaha that is so funny 😂
+06/01/2023, 10:38 - Diana: Good morning! ☀️
+06/01/2023, 10:39 - Bob: Let's catch up later.
+[06/01/2023, 10:43:09] Alice: I'm busy right now.
+06/01/2023, 10:46 - Alice: Hahaha that is so funny 😂
+[06/01/2023, 10:51:07] Diana: I am running late!
+06/01/2023, 10:52 - Diana: Meeting is at 5pm.
+[06/01/2023, 10:52:58] Charlie: I am running late!
+06/01/2023, 10:54 - Alice: Hey guys, how is it going?
+[06/01/2023, 10:56:33] Alice: Hahaha that is so funny 😂
+06/01/2023, 10:56 - Alice: Let's catch up later.
+06/01/2023, 11:01 - Alice: I disagree with that point.
+[06/01/2023, 11:04:35] Bob: Can you send me the file?
+[06/01/2023, 11:08:09] Bob: Let's catch up later.
+[06/01/2023, 11:12:43] Bob: This project is going well.
+06/01/2023, 11:13 - Charlie: This project is going well.
+06/01/2023, 11:16 - Alice: I am running late!
+[06/01/2023, 23:16:32] Bob: I disagree with that point.
+06/01/2023, 23:19 - Charlie: I'm busy right now.
+[06/01/2023, 23:19:44] Bob: Did you see the news? 😱
+[06/01/2023, 23:20:44] Alice: What are we having for lunch?
+[07/01/2023, 11:20:44] Bob: Great job! 👍
+07/01/2023, 11:23 - Diana: Hahaha that is so funny 😂
+07/01/2023, 11:25 - Bob: Great job! 👍
+[07/01/2023, 11:26:23] Diana: Thanks!
+07/01/2023, 11:27 - Alice: Did you see the news? 😱
+07/01/2023, 11:31 - Diana: Meeting is at 5pm.
+07/01/2023, 11:33 - Diana: I'm busy right now.
+07/01/2023, 15:33 - Charlie: Great job! 👍
+[07/01/2023, 15:36:35] Diana: Meeting is at 5pm.
+[08/01/2023, 09:36:35] Alice: Let's catch up later.
+[08/01/2023, 15:36:35] Diana: I'm busy right now.
+08/01/2023, 15:36 - Alice: Can you send me the file?
+08/01/2023, 15:40 - Diana: I disagree with that point.
+08/01/2023, 15:40 - Bob: Hey guys, how is it going?
+[08/01/2023, 15:41:04] Diana: This project is going well.
+08/01/2023, 15:42 - Alice: What are we having for lunch?
+08/01/2023, 15:43 - Alice: I am running late!
+08/01/2023, 15:43 - Charlie: Great job! 👍
+08/01/2023, 15:48 - Charlie: I am running late!
+[08/01/2023, 15:51:33] Diana: Can you send me the file?
+[08/01/2023, 15:52:06] Charlie: I am running late!
+[08/01/2023, 15:55:10] Charlie: Let's catch up later.
+08/01/2023, 18:55 - Diana: This project is going well.
+[08/01/2023, 18:55:35] Charlie: Meeting is at 5pm.
+08/01/2023, 18:57 - Alice: Thanks!
+08/01/2023, 18:59 - Alice: Let's catch up later.
+08/01/2023, 19:01 - Charlie: Thanks!
+08/01/2023, 19:06 - Bob: What are we having for lunch?
+[08/01/2023, 19:09:38] Diana: I disagree with that point.
+08/01/2023, 19:14 - Alice: Did you see the news? 😱
+[08/01/2023, 19:17:43] Alice: I disagree with that point.
+09/01/2023, 10:17 - Alice: I disagree with that point.
+[09/01/2023, 17:17:43] Bob: This project is going well.
+[09/01/2023, 17:21:55] Bob: This project is going well.
+09/01/2023, 17:25 - Alice: I am running late!
+[09/01/2023, 17:26:33] Alice: Can you send me the file?
+[10/01/2023, 00:26:33] Diana: Good night everyone 💤
+[10/01/2023, 00:28:37] Charlie: Good morning! ☀️
+[10/01/2023, 00:30:19] Bob: I am running late!
+[10/01/2023, 00:31:13] Diana: What are we having for lunch?
+10/01/2023, 00:35 - Bob: What are we having for lunch?
+[10/01/2023, 00:40:37] Alice: Can you send me the file?
+10/01/2023, 00:42 - Bob: Good night everyone 💤
+[10/01/2023, 00:42:46] Charlie: I am running late!
+10/01/2023, 00:46 - Bob: Hey guys, how is it going?
+[10/01/2023, 00:46:55] Alice: Hahaha that is so funny 😂
+10/01/2023, 09:46 - Diana: I am running late!
+[10/01/2023, 09:49:53] Bob: Meeting is at 5pm.
+10/01/2023, 09:52 - Diana: I'm busy right now.
+[10/01/2023, 09:56:44] Charlie: What are we having for lunch?
+[10/01/2023, 09:58:52] Bob: Good morning! ☀️
+10/01/2023, 09:59 - Bob: Hey guys, how is it going?
+10/01/2023, 09:59 - Alice: Good night everyone 💤
+10/01/2023, 09:59 - Diana: Hey guys, how is it going?
+10/01/2023, 10:01 - Bob: What are we having for lunch?
+[10/01/2023, 10:02:31] Bob: Hey guys, how is it going?
+[10/01/2023, 18:02:31] Bob: This project is going well.
+10/01/2023, 18:07 - Charlie: Let's catch up later.
+10/01/2023, 22:07 - Bob: I disagree with that point.
+10/01/2023, 22:10 - Alice: Good night everyone 💤
+11/01/2023, 08:10 - Diana: Great job! 👍
+[11/01/2023, 08:12:09] Charlie: What are we having for lunch?
+[11/01/2023, 08:13:47] Charlie: Hey guys, how is it going?
+[11/01/2023, 08:18:35] Alice: Good morning! ☀️
+[11/01/2023, 08:23:29] Bob: Meeting is at 5pm.
+11/01/2023, 12:23 - Bob: Great job! 👍
+11/01/2023, 12:26 - Diana: Thanks!
+11/01/2023, 12:26 - Charlie: Did you see the news? 😱
+[11/01/2023, 12:30:24] Bob: I am running late!
+[11/01/2023, 12:31:15] Alice: Good morning! ☀️
+11/01/2023, 12:32 - Bob: Great job! 👍
+11/01/2023, 12:35 - Bob: Great job! 👍
+[11/01/2023, 12:37:02] Alice: I am running late!
+11/01/2023, 12:39 - Alice: I'm busy right now.
+11/01/2023, 12:44 - Alice: Meeting is at 5pm.
+[11/01/2023, 21:44:21] Alice: Meeting is at 5pm.
+11/01/2023, 21:47 - Charlie: Good morning! ☀️
+11/01/2023, 21:51 - Diana: Meeting is at 5pm.
+[11/01/2023, 21:53:02] Alice: Let's catch up later.
+11/01/2023, 21:57 - Charlie: I am running late!
+11/01/2023, 21:58 - Bob: Let's catch up later.
+11/01/2023, 22:00 - Bob: Good morning! ☀️
+[11/01/2023, 22:03:53] Diana: Let's catch up later.
+11/01/2023, 22:06 - Charlie: What are we having for lunch?
+12/01/2023, 07:06 - Bob: Did you see the news? 😱
+12/01/2023, 07:09 - Diana: Did you see the news? 😱
+[12/01/2023, 07:11:29] Diana: I am running late!
+[12/01/2023, 07:15:23] Diana: Did you see the news? 😱
+12/01/2023, 07:15 - Bob: I am running late!
+12/01/2023, 13:15 - Charlie: I disagree with that point.
+12/01/2023, 13:18 - Bob: Can you send me the file?
+[12/01/2023, 13:23:19] Diana: I'm busy right now.
+12/01/2023, 13:26 - Diana: I'm busy right now.
+12/01/2023, 16:26 - Alice: I disagree with that point.
+12/01/2023, 19:26 - Charlie: Great job! 👍
+13/01/2023, 12:26 - Bob: Hey guys, how is it going?
+13/01/2023, 12:30 - Diana: Can you send me the file?
+[13/01/2023, 12:33:50] Alice: Hahaha that is so funny 😂
+[13/01/2023, 12:34:53] Bob: What are we having for lunch?
+13/01/2023, 15:34 - Alice: Can you send me the file?
+[13/01/2023, 15:39:20] Diana: Hey guys, how is it going?
+[13/01/2023, 15:41:11] Charlie: Meeting is at 5pm.
+[13/01/2023, 20:41:11] Alice: I disagree with that point.
+13/01/2023, 20:42 - Charlie: I'm busy right now.
+13/01/2023, 21:42 - Charlie: Thanks!
+[13/01/2023, 21:44:18] Diana: I'm busy right now.
+13/01/2023, 21:47 - Diana: Hahaha that is so funny 😂
+[14/01/2023, 11:47:52] Charlie: Meeting is at 5pm.
+[14/01/2023, 11:52:03] Bob: Hahaha that is so funny 😂
+14/01/2023, 19:52 - Bob: Let's catch up later.
+[14/01/2023, 19:55:03] Alice: Thanks!
+[14/01/2023, 19:56:34] Diana: Meeting is at 5pm.
+[14/01/2023, 20:00:29] Diana: Good morning! ☀️
+[14/01/2023, 21:00:29] Charlie: Thanks!
+[15/01/2023, 08:00:29] Charlie: Did you see the news? 😱
+[15/01/2023, 09:00:29] Charlie: I'm busy right now.
+15/01/2023, 09:04 - Diana: Good night everyone 💤
+15/01/2023, 09:08 - Bob: Did you see the news? 😱
+[15/01/2023, 09:09:03] Diana: Meeting is at 5pm.
+[15/01/2023, 15:09:03] Bob: Great job! 👍
+[15/01/2023, 15:10:39] Bob: What are we having for lunch?
+[15/01/2023, 15:13:44] Alice: Good night everyone 💤
+15/01/2023, 15:16 - Charlie: Good morning! ☀️
+[15/01/2023, 15:21:05] Bob: What are we having for lunch?
+[15/01/2023, 15:21:33] Diana: Meeting is at 5pm.
+[15/01/2023, 15:23:33] Diana: This project is going well.
+[15/01/2023, 15:27:29] Charlie: Let's catch up later.
+[15/01/2023, 15:32:28] Diana: This project is going well.
+[15/01/2023, 16:32:28] Diana: Hahaha that is so funny 😂
+[15/01/2023, 16:37:23] Diana: Meeting is at 5pm.
+15/01/2023, 16:38 - Alice: Good night everyone 💤
+[15/01/2023, 16:41:27] Charlie: I am running late!
+15/01/2023, 16:43 - Alice: Good morning! ☀️
+15/01/2023, 16:46 - Alice: Meeting is at 5pm.
+[15/01/2023, 16:50:05] Diana: Good morning! ☀️
+15/01/2023, 16:51 - Alice: This project is going well.
+15/01/2023, 16:53 - Diana: Good morning! ☀️
+[15/01/2023, 16:57:44] Alice: Let's catch up later.
+15/01/2023, 17:01 - Alice: Did you see the news? 😱
+[15/01/2023, 17:05:41] Alice: Let's catch up later.
+15/01/2023, 17:06 - Bob: Hey guys, how is it going?
+15/01/2023, 21:06 - Diana: Let's catch up later.
+15/01/2023, 21:10 - Charlie: Good morning! ☀️
+[15/01/2023, 21:11:27] Alice: I'm busy right now.
+[16/01/2023, 09:11:27] Charlie: Thanks!
+[16/01/2023, 09:15:42] Diana: Good night everyone 💤
+16/01/2023, 09:16 - Charlie: Let's catch up later.
+16/01/2023, 13:16 - Alice: Thanks!
+16/01/2023, 13:20 - Diana: Can you send me the file?
+16/01/2023, 13:24 - Alice: Let's catch up later.
+17/01/2023, 07:24 - Bob: I'm busy right now.
+17/01/2023, 19:24 - Diana: Great job! 👍
+[17/01/2023, 19:28:53] Charlie: Great job! 👍
+17/01/2023, 19:31 - Bob: Great job! 👍
+[17/01/2023, 19:35:26] Bob: This project is going well.
+[18/01/2023, 12:35:26] Diana: Did you see the news? 😱
+[18/01/2023, 12:37:39] Diana: I disagree with that point.
+[18/01/2023, 16:37:39] Alice: What are we having for lunch?
+[18/01/2023, 16:40:53] Bob: I disagree with that point.
+18/01/2023, 16:41 - Bob: I am running late!
+18/01/2023, 16:45 - Diana: Good night everyone 💤
+[18/01/2023, 16:50:24] Bob: Great job! 👍
+18/01/2023, 16:52 - Bob: Hey guys, how is it going?
+[18/01/2023, 16:52:58] Charlie: Great job! 👍
+[18/01/2023, 16:54:09] Bob: Thanks!
+18/01/2023, 16:57 - Bob: Did you see the news? 😱
+18/01/2023, 16:57 - Alice: I'm busy right now.
+18/01/2023, 17:01 - Diana: I am running late!
+[18/01/2023, 17:03:13] Diana: Thanks!
+18/01/2023, 17:05 - Bob: I'm busy right now.
+[18/01/2023, 21:05:41] Charlie: Great job! 👍
+18/01/2023, 21:06 - Charlie: Hahaha that is so funny 😂
+[18/01/2023, 21:10:42] Diana: Hey guys, how is it going?
+18/01/2023, 21:13 - Diana: I disagree with that point.
+18/01/2023, 21:16 - Diana: I'm busy right now.
+18/01/2023, 21:17 - Alice: I disagree with that point.
+[18/01/2023, 21:19:17] Bob: Good morning! ☀️
+18/01/2023, 21:21 - Alice: I disagree with that point.
+19/01/2023, 08:21 - Charlie: Meeting is at 5pm.
+[19/01/2023, 08:22:46] Charlie: Meeting is at 5pm.
+19/01/2023, 11:22 - Charlie: This project is going well.
+[19/01/2023, 11:24:49] Diana: I disagree with that point.
+19/01/2023, 11:25 - Diana: Hahaha that is so funny 😂
+19/01/2023, 11:28 - Alice: Thanks!
+19/01/2023, 11:31 - Diana: Thanks!
+[19/01/2023, 14:31:53] Diana: What are we having for lunch?
+19/01/2023, 14:36 - Alice: What are we having for lunch?
+19/01/2023, 14:37 - Charlie: I'm busy right now.
+19/01/2023, 14:38 - Diana: Let's catch up later.
+[19/01/2023, 14:39:45] Diana: I'm busy right now.
+[19/01/2023, 14:44:05] Diana: This project is going well.
+[19/01/2023, 14:48:35] Bob: This project is going well.
+[19/01/2023, 23:48:35] Diana: This project is going well.
+19/01/2023, 23:52 - Alice: Did you see the news? 😱
+19/01/2023, 23:57 - Charlie: I am running late!
+[19/01/2023, 23:58:16] Diana: I am running late!
+19/01/2023, 23:58 - Alice: What are we having for lunch?
+20/01/2023, 00:02 - Charlie: Let's catch up later.
+[20/01/2023, 00:04:37] Charlie: Good night everyone 💤
+20/01/2023, 00:05 - Diana: Can you send me the file?
+[20/01/2023, 00:05:56] Charlie: I am running late!
+[20/01/2023, 11:05:56] Diana: I disagree with that point.
+[20/01/2023, 11:08:18] Diana: Good night everyone 💤
+[20/01/2023, 14:08:18] Alice: Thanks!
+20/01/2023, 14:09 - Charlie: What are we having for lunch?
+20/01/2023, 14:14 - Alice: Good morning! ☀️
+[20/01/2023, 14:15:16] Charlie: Can you send me the file?
+[20/01/2023, 14:18:04] Alice: What are we having for lunch?
+20/01/2023, 23:18 - Charlie: I am running late!
+[20/01/2023, 23:22:24] Alice: I disagree with that point.
+[21/01/2023, 11:22:24] Charlie: This project is going well.
+[21/01/2023, 11:23:16] Bob: Good night everyone 💤
+[21/01/2023, 11:27:37] Charlie: Great job! 👍
+[21/01/2023, 11:30:16] Bob: Good night everyone 💤
+21/01/2023, 11:30 - Alice: I disagree with that point.
+21/01/2023, 11:33 - Bob: Meeting is at 5pm.
+21/01/2023, 11:36 - Diana: What are we having for lunch?
+21/01/2023, 11:37 - Bob: Hahaha that is so funny 😂
+21/01/2023, 14:37 - Diana: Good morning! ☀️
+21/01/2023, 14:41 - Diana: Hahaha that is so funny 😂
+[21/01/2023, 14:43:16] Alice: Meeting is at 5pm.
+21/01/2023, 14:45 - Bob: Great job! 👍
+[21/01/2023, 14:50:25] Alice: I disagree with that point.
+[21/01/2023, 14:53:15] Alice: I disagree with that point.
+[21/01/2023, 17:53:15] Alice: This project is going well.
+21/01/2023, 17:54 - Diana: Good morning! ☀️
+[21/01/2023, 22:54:22] Diana: Great job! 👍
+[21/01/2023, 22:57:07] Diana: Meeting is at 5pm.
+21/01/2023, 23:01 - Diana: Thanks!
+[21/01/2023, 23:03:28] Alice: Let's catch up later.
+[21/01/2023, 23:05:16] Alice: Can you send me the file?
+21/01/2023, 23:09 - Alice: I am running late!
+[21/01/2023, 23:13:35] Charlie: Good night everyone 💤
+21/01/2023, 23:17 - Diana: What are we having for lunch?
+[21/01/2023, 23:20:05] Alice: Let's catch up later.
+[21/01/2023, 23:21:29] Charlie: Hey guys, how is it going?
+21/01/2023, 23:25 - Charlie: Thanks!
+21/01/2023, 23:27 - Diana: Hahaha that is so funny 😂
+22/01/2023, 08:27 - Bob: Good morning! ☀️
+22/01/2023, 08:32 - Diana: Good night everyone 💤
+[22/01/2023, 08:32:24] Charlie: I disagree with that point.
+22/01/2023, 08:32 - Bob: Can you send me the file?
+[22/01/2023, 08:34:19] Alice: I am running late!
+[22/01/2023, 08:35:33] Diana: This project is going well.
+[22/01/2023, 08:38:30] Alice: Hey guys, how is it going?
+[22/01/2023, 08:39:42] Charlie: I am running late!
+22/01/2023, 17:39 - Diana: Can you send me the file?
+23/01/2023, 09:39 - Alice: What are we having for lunch?
+23/01/2023, 09:40 - Alice: What are we having for lunch?
+[23/01/2023, 13:40:46] Alice: Can you send me the file?
+[23/01/2023, 13:43:58] Alice: This project is going well.
+[23/01/2023, 13:46:40] Charlie: I am running late!
+23/01/2023, 13:51 - Alice: Meeting is at 5pm.
+23/01/2023, 16:51 - Diana: Hey guys, how is it going?
+[23/01/2023, 16:56:22] Bob: Did you see the news? 😱
+23/01/2023, 16:57 - Diana: Great job! 👍
+23/01/2023, 16:59 - Diana: Good morning! ☀️
+[23/01/2023, 22:59:33] Charlie: Good night everyone 💤
+23/01/2023, 23:01 - Charlie: Can you send me the file?
+[24/01/2023, 00:01:10] Bob: I am running late!
+[24/01/2023, 00:04:10] Alice: Hahaha that is so funny 😂
+[24/01/2023, 00:05:58] Bob: Can you send me the file?
+24/01/2023, 00:10 - Charlie: Meeting is at 5pm.
+24/01/2023, 07:10 - Charlie: Good night everyone 💤
+24/01/2023, 07:14 - Charlie: Great job! 👍
+24/01/2023, 07:18 - Charlie: What are we having for lunch?
+[24/01/2023, 07:21:34] Bob: I'm busy right now.
+24/01/2023, 07:21 - Alice: This project is going well.
+24/01/2023, 07:23 - Diana: What are we having for lunch?
+24/01/2023, 07:26 - Alice: What are we having for lunch?
+[24/01/2023, 07:30:38] Diana: This project is going well.
+[24/01/2023, 07:34:10] Charlie: Good night everyone 💤
+[24/01/2023, 07:39:01] Alice: Hey guys, how is it going?
+[24/01/2023, 07:41:52] Alice: Good night everyone 💤
+[24/01/2023, 07:45:47] Alice: I'm busy right now.
+24/01/2023, 14:45 - Diana: What are we having for lunch?
+[24/01/2023, 14:50:38] Diana: I'm busy right now.
+24/01/2023, 14:50 - Alice: Hey guys, how is it going?
+[24/01/2023, 14:51:14] Alice: Did you see the news? 😱
+24/01/2023, 14:55 - Bob: Can you send me the file?
+24/01/2023, 14:58 - Alice: Hey guys, how is it going?
+[24/01/2023, 14:58:34] Bob: Thanks!
+[24/01/2023, 15:01:19] Bob: Thanks!
+[24/01/2023, 15:04:25] Alice: What are we having for lunch?
+[24/01/2023, 15:08:38] Bob: Hahaha that is so funny 😂
+[24/01/2023, 15:12:14] Bob: This project is going well.
+25/01/2023, 00:12 - Diana: I am running late!
+[25/01/2023, 00:16:44] Bob: Meeting is at 5pm.
+25/01/2023, 00:17 - Diana: I disagree with that point.
+25/01/2023, 09:17 - Charlie: Let's catch up later.
+[25/01/2023, 09:21:51] Bob: Good night everyone 💤
+[25/01/2023, 10:21:51] Alice: Great job! 👍
+[25/01/2023, 10:24:05] Charlie: I'm busy right now.
+25/01/2023, 10:26 - Bob: Let's catch up later.
+25/01/2023, 10:28 - Alice: Meeting is at 5pm.
+[25/01/2023, 22:28:50] Charlie: Let's catch up later.
+26/01/2023, 00:28 - Diana: Meeting is at 5pm.
+26/01/2023, 07:28 - Diana: Let's catch up later.
+26/01/2023, 08:28 - Alice: Let's catch up later.
+26/01/2023, 08:29 - Diana: Thanks!
+[26/01/2023, 08:32:14] Alice: Can you send me the file?
+[26/01/2023, 13:32:14] Charlie: What are we having for lunch?
+26/01/2023, 13:33 - Bob: Great job! 👍
+[26/01/2023, 18:33:36] Alice: Meeting is at 5pm.
+27/01/2023, 00:33 - Charlie: Meeting is at 5pm.
+27/01/2023, 00:34 - Charlie: This project is going well.
+[27/01/2023, 00:35:07] Alice: What are we having for lunch?
+27/01/2023, 00:38 - Bob: This project is going well.
+27/01/2023, 00:40 - Bob: This project is going well.
+[27/01/2023, 00:41:28] Diana: Good night everyone 💤
+27/01/2023, 00:42 - Alice: I disagree with that point.
+[27/01/2023, 00:46:55] Alice: Thanks!
+[27/01/2023, 00:48:06] Diana: What are we having for lunch?
+[27/01/2023, 00:48:58] Diana: Good night everyone 💤
+[27/01/2023, 00:51:42] Alice: Can you send me the file?
+[27/01/2023, 10:51:42] Charlie: Let's catch up later.
+[27/01/2023, 10:53:47] Diana: Good night everyone 💤
+[27/01/2023, 14:53:47] Alice: What are we having for lunch?
+[27/01/2023, 14:58:46] Bob: Did you see the news? 😱
+[27/01/2023, 15:03:30] Charlie: This project is going well.
+27/01/2023, 15:04 - Bob: Good morning! ☀️
+[27/01/2023, 15:08:36] Alice: I am running late!
+[27/01/2023, 15:09:32] Alice: Good morning! ☀️
+[27/01/2023, 15:12:03] Charlie: I am running late!
+[27/01/2023, 15:14:56] Charlie: I disagree with that point.
+27/01/2023, 23:14 - Alice: Thanks!
+[27/01/2023, 23:19:54] Bob: Can you send me the file?
+27/01/2023, 23:21 - Diana: Hey guys, how is it going?
+[27/01/2023, 23:25:17] Diana: Hey guys, how is it going?
+[27/01/2023, 23:25:32] Alice: This project is going well.
+[27/01/2023, 23:29:42] Alice: Did you see the news? 😱
+[27/01/2023, 23:32:19] Diana: Good morning! ☀️
+27/01/2023, 23:36 - Alice: Did you see the news? 😱
+27/01/2023, 23:40 - Charlie: What are we having for lunch?
+28/01/2023, 08:40 - Diana: I disagree with that point.
+[28/01/2023, 08:40:46] Alice: I disagree with that point.
+[28/01/2023, 16:40:46] Bob: Did you see the news? 😱
+29/01/2023, 08:40 - Diana: Good morning! ☀️
+[29/01/2023, 08:44:02] Charlie: Hey guys, how is it going?
+29/01/2023, 20:44 - Charlie: Good night everyone 💤
+[29/01/2023, 20:45:19] Charlie: What are we having for lunch?
+29/01/2023, 20:48 - Bob: Good morning! ☀️
+[29/01/2023, 20:51:58] Charlie: Good night everyone 💤
+[29/01/2023, 20:56:44] Alice: Great job! 👍
+30/01/2023, 08:56 - Alice: Did you see the news? 😱
+[30/01/2023, 09:00:21] Charlie: Meeting is at 5pm.
+[30/01/2023, 09:04:47] Bob: Thanks!
+[30/01/2023, 16:04:47] Diana: I am running late!
+[31/01/2023, 10:04:47] Alice: Thanks!
+[31/01/2023, 10:07:02] Diana: What are we having for lunch?
+31/01/2023, 17:07 - Bob: Good night everyone 💤
+31/01/2023, 17:08 - Charlie: Hahaha that is so funny 😂
+31/01/2023, 17:10 - Charlie: Can you send me the file?
+[31/01/2023, 17:12:41] Charlie: I'm busy right now.
+[31/01/2023, 17:14:58] Bob: I am running late!
+01/02/2023, 07:14 - Charlie: I disagree with that point.
+01/02/2023, 12:14 - Bob: I disagree with that point.
+01/02/2023, 12:16 - Charlie: Thanks!
+01/02/2023, 12:20 - Alice: Meeting is at 5pm.
+[01/02/2023, 12:22:28] Charlie: Hahaha that is so funny 😂
+01/02/2023, 13:22 - Bob: Can you send me the file?
+[01/02/2023, 22:22:28] Bob: I disagree with that point.
+02/02/2023, 10:22 - Charlie: I disagree with that point.
+02/02/2023, 10:25 - Diana: This project is going well.
+02/02/2023, 10:28 - Bob: Let's catch up later.
+02/02/2023, 18:28 - Diana: Can you send me the file?
+02/02/2023, 18:29 - Bob: Can you send me the file?
+[03/02/2023, 08:29:21] Alice: I'm busy right now.
+03/02/2023, 08:32 - Diana: Good night everyone 💤
+03/02/2023, 08:33 - Charlie: What are we having for lunch?
+03/02/2023, 08:36 - Bob: What are we having for lunch?
+[03/02/2023, 08:40:17] Diana: I'm busy right now.
+[03/02/2023, 08:41:51] Alice: Hahaha that is so funny 😂
+[03/02/2023, 09:41:51] Charlie: Did you see the news? 😱
+[03/02/2023, 09:46:39] Bob: Great job! 👍
+[03/02/2023, 19:46:39] Bob: Did you see the news? 😱
+03/02/2023, 19:50 - Alice: Meeting is at 5pm.
+03/02/2023, 19:51 - Diana: I am running late!
+04/02/2023, 10:51 - Diana: Meeting is at 5pm.
+04/02/2023, 15:51 - Diana: What are we having for lunch?
+[04/02/2023, 15:54:14] Charlie: Let's catch up later.
+[04/02/2023, 15:56:01] Alice: Hahaha that is so funny 😂
+04/02/2023, 15:56 - Alice: Good night everyone 💤
+04/02/2023, 15:57 - Bob: Good morning! ☀️
+[04/02/2023, 21:57:55] Charlie: I am running late!
+[04/02/2023, 22:01:17] Charlie: I disagree with that point.
+[04/02/2023, 22:05:33] Alice: I'm busy right now.
+[04/02/2023, 22:07:07] Alice: Great job! 👍
+[04/02/2023, 22:10:11] Diana: Can you send me the file?
+[04/02/2023, 22:11:59] Charlie: Can you send me the file?
+05/02/2023, 10:11 - Charlie: Can you send me the file?
+[05/02/2023, 10:12:33] Diana: Did you see the news? 😱
+05/02/2023, 10:16 - Alice: Good morning! ☀️
+[05/02/2023, 10:20:25] Bob: I'm busy right now.
+05/02/2023, 10:22 - Diana: Let's catch up later.
+[05/02/2023, 21:22:44] Diana: Thanks!
+05/02/2023, 21:25 - Diana: Thanks!
+05/02/2023, 21:27 - Bob: Meeting is at 5pm.
+[05/02/2023, 21:30:44] Diana: I am running late!
+05/02/2023, 21:35 - Charlie: Good night everyone 💤
+05/02/2023, 21:38 - Alice: Can you send me the file?
+[05/02/2023, 21:41:03] Diana: I'm busy right now.
+[05/02/2023, 21:44:34] Charlie: Good night everyone 💤
+05/02/2023, 21:45 - Diana: Good night everyone 💤
+[05/02/2023, 21:49:03] Alice: Meeting is at 5pm.
+06/02/2023, 08:49 - Bob: Hey guys, how is it going?
+[06/02/2023, 08:49:42] Bob: I'm busy right now.
+[06/02/2023, 08:49:56] Charlie: Hey guys, how is it going?
+[06/02/2023, 18:49:56] Bob: I'm busy right now.
+[06/02/2023, 18:50:12] Diana: Meeting is at 5pm.
+07/02/2023, 11:50 - Charlie: Can you send me the file?
+07/02/2023, 11:52 - Diana: Hey guys, how is it going?
+[07/02/2023, 11:52:54] Diana: Let's catch up later.
+[07/02/2023, 12:52:54] Alice: What are we having for lunch?
+[07/02/2023, 12:55:13] Diana: Hahaha that is so funny 😂
+07/02/2023, 12:56 - Bob: I am running late!
+08/02/2023, 00:56 - Charlie: I disagree with that point.
+[08/02/2023, 00:59:57] Bob: I disagree with that point.
+[08/02/2023, 07:02:51] Alice: This project is going well.
+[08/02/2023, 07:03:48] Charlie: Good morning! ☀️
+08/02/2023, 07:04 - Alice: I disagree with that point.
+08/02/2023, 07:06 - Alice: Great job! 👍
+[08/02/2023, 09:06:17] Diana: Hey guys, how is it going?
+08/02/2023, 09:06 - Diana: Good morning! ☀️
+08/02/2023, 09:09 - Bob: Did you see the news? 😱
+[08/02/2023, 09:12:07] Charlie: Thanks!
+[08/02/2023, 13:12:07] Alice: This project is going well.
+08/02/2023, 13:16 - Alice: Did you see the news? 😱
+08/02/2023, 13:19 - Bob: Hahaha that is so funny 😂
+[09/02/2023, 07:19:03] Charlie: I am running late!
+[09/02/2023, 07:21:56] Alice: Hahaha that is so funny 😂
+[09/02/2023, 07:24:11] Charlie: Can you send me the file?
+09/02/2023, 07:24 - Bob: This project is going well.
+[09/02/2023, 07:28:12] Charlie: This project is going well.
+09/02/2023, 07:28 - Alice: I am running late!
+[09/02/2023, 07:33:50] Bob: I'm busy right now.
+[09/02/2023, 07:38:01] Bob: Hahaha that is so funny 😂
+09/02/2023, 08:38 - Alice: Good night everyone 💤
+09/02/2023, 08:40 - Bob: Hey guys, how is it going?
+09/02/2023, 08:45 - Bob: Good morning! ☀️
+[09/02/2023, 08:46:53] Alice: Good morning! ☀️
+[09/02/2023, 08:47:51] Diana: I am running late!
+[09/02/2023, 08:49:09] Charlie: Thanks!
+09/02/2023, 08:52 - Diana: Hahaha that is so funny 😂
+[09/02/2023, 08:55:40] Alice: I am running late!
+09/02/2023, 17:55 - Alice: I'm busy right now.
+09/02/2023, 22:55 - Bob: Let's catch up later.
+[09/02/2023, 22:59:05] Bob: Thanks!
+09/02/2023, 23:01 - Bob: Thanks!
+[09/02/2023, 23:05:28] Charlie: Meeting is at 5pm.
+09/02/2023, 23:09 - Bob: Hey guys, how is it going?
+[09/02/2023, 23:12:17] Alice: This project is going well.
+[09/02/2023, 23:16:54] Alice: Did you see the news? 😱
+[09/02/2023, 23:21:38] Diana: This project is going well.
+09/02/2023, 23:23 - Bob: I'm busy right now.
+10/02/2023, 10:23 - Diana: Can you send me the file?
+10/02/2023, 10:26 - Alice: I am running late!
+10/02/2023, 10:27 - Charlie: I am running late!
+10/02/2023, 10:29 - Diana: Good morning! ☀️
+[10/02/2023, 10:31:26] Alice: Let's catch up later.
+10/02/2023, 10:33 - Alice: Good night everyone 💤
+10/02/2023, 14:33 - Bob: Hahaha that is so funny 😂
+10/02/2023, 14:33 - Bob: Let's catch up later.
+11/02/2023, 08:33 - Bob: Meeting is at 5pm.
+11/02/2023, 08:37 - Bob: Good night everyone 💤
+[11/02/2023, 17:37:44] Diana: Meeting is at 5pm.
+11/02/2023, 17:38 - Diana: Hahaha that is so funny 😂
+[11/02/2023, 17:42:58] Alice: What are we having for lunch?
+11/02/2023, 20:42 - Diana: Good morning! ☀️
+11/02/2023, 23:42 - Alice: Thanks!
+[11/02/2023, 23:43:59] Alice: What are we having for lunch?
+11/02/2023, 23:47 - Bob: Did you see the news? 😱
+11/02/2023, 23:52 - Bob: Hey guys, how is it going?
+11/02/2023, 23:56 - Diana: Great job! 👍
+[11/02/2023, 23:59:16] Bob: Great job! 👍
+[12/02/2023, 00:04:04] Alice: Good morning! ☀️
+[12/02/2023, 00:07:12] Diana: Let's catch up later.
+12/02/2023, 00:11 - Diana: What are we having for lunch?
+12/02/2023, 00:16 - Charlie: Good night everyone 💤
+12/02/2023, 00:16 - Alice: I am running late!
+12/02/2023, 00:20 - Alice: I'm busy right now.
+[12/02/2023, 00:24:21] Charlie: What are we having for lunch?
+[12/02/2023, 00:24:35] Diana: Thanks!
+12/02/2023, 00:29 - Alice: This project is going well.
+[12/02/2023, 00:33:34] Diana: What are we having for lunch?
+[12/02/2023, 00:37:31] Alice: Thanks!
+[12/02/2023, 00:38:44] Charlie: Hey guys, how is it going?
+[12/02/2023, 00:42:21] Charlie: Did you see the news? 😱
+[12/02/2023, 00:46:33] Bob: Great job! 👍
+12/02/2023, 00:49 - Diana: I'm busy right now.
+12/02/2023, 00:53 - Alice: This project is going well.
+[12/02/2023, 11:53:24] Diana: Hey guys, how is it going?
+[12/02/2023, 11:53:57] Diana: What are we having for lunch?
+[12/02/2023, 11:56:14] Alice: Hahaha that is so funny 😂
+12/02/2023, 11:59 - Diana: Thanks!
+[12/02/2023, 12:02:54] Bob: Hahaha that is so funny 😂
+[12/02/2023, 12:06:03] Alice: Great job! 👍
+[12/02/2023, 15:06:03] Diana: What are we having for lunch?
+[12/02/2023, 15:06:21] Alice: This project is going well.
+12/02/2023, 15:10 - Bob: Great job! 👍
+12/02/2023, 15:11 - Charlie: Did you see the news? 😱
+12/02/2023, 18:11 - Diana: Meeting is at 5pm.
+[12/02/2023, 18:13:39] Diana: Great job! 👍
+[12/02/2023, 18:17:06] Diana: What are we having for lunch?
+12/02/2023, 18:22 - Diana: Good night everyone 💤
+[12/02/2023, 18:24:14] Alice: I disagree with that point.
+[12/02/2023, 18:27:22] Charlie: I am running late!
+[12/02/2023, 18:32:17] Charlie: Hey guys, how is it going?
+12/02/2023, 18:35 - Alice: Good night everyone 💤
+12/02/2023, 18:38 - Alice: Good morning! ☀️
+[13/02/2023, 07:38:05] Diana: What are we having for lunch?
+13/02/2023, 07:40 - Bob: I am running late!
+[13/02/2023, 07:41:49] Alice: Good morning! ☀️
+[13/02/2023, 07:46:41] Charlie: Let's catch up later.
+[13/02/2023, 07:48:44] Alice: Meeting is at 5pm.
+13/02/2023, 07:52 - Charlie: Good morning! ☀️
+[13/02/2023, 07:55:25] Bob: This project is going well.
+13/02/2023, 07:58 - Alice: I'm busy right now.
+13/02/2023, 08:02 - Diana: Can you send me the file?
+[13/02/2023, 08:06:50] Bob: Good morning! ☀️
+[13/02/2023, 08:11:24] Alice: Let's catch up later.
+[13/02/2023, 08:15:03] Bob: I disagree with that point.
+13/02/2023, 08:17 - Alice: What are we having for lunch?
+[13/02/2023, 08:19:21] Alice: Good morning! ☀️
+[13/02/2023, 08:23:28] Diana: Meeting is at 5pm.
+13/02/2023, 08:27 - Bob: Hahaha that is so funny 😂
+13/02/2023, 15:27 - Alice: Good morning! ☀️
+13/02/2023, 20:27 - Alice: Thanks!
+[13/02/2023, 20:30:58] Charlie: What are we having for lunch?
+13/02/2023, 20:31 - Diana: Meeting is at 5pm.
+13/02/2023, 20:35 - Diana: I disagree with that point.
+13/02/2023, 20:35 - Charlie: This project is going well.
+13/02/2023, 20:37 - Charlie: This project is going well.
+[13/02/2023, 20:38:44] Diana: Can you send me the file?
+13/02/2023, 20:41 - Bob: Did you see the news? 😱
+[13/02/2023, 20:45:14] Diana: Hey guys, how is it going?
+[13/02/2023, 20:48:08] Diana: Can you send me the file?
+[13/02/2023, 20:52:55] Alice: What are we having for lunch?
+[13/02/2023, 20:55:40] Diana: What are we having for lunch?
+14/02/2023, 11:55 - Alice: I am running late!
+14/02/2023, 11:58 - Bob: Good morning! ☀️
+14/02/2023, 11:59 - Alice: Hey guys, how is it going?
+14/02/2023, 14:59 - Bob: Let's catch up later.
+14/02/2023, 15:04 - Alice: What are we having for lunch?
+[14/02/2023, 15:05:11] Bob: Great job! 👍
+14/02/2023, 22:05 - Alice: I am running late!
+[15/02/2023, 09:05:11] Diana: I'm busy right now.
+15/02/2023, 09:08 - Charlie: I'm busy right now.
+[15/02/2023, 09:12:39] Alice: Thanks!
+[15/02/2023, 09:13:30] Diana: Can you send me the file?
+[15/02/2023, 09:18:06] Diana: This project is going well.
+[15/02/2023, 09:18:27] Alice: Hahaha that is so funny 😂
+15/02/2023, 09:20 - Alice: Thanks!
+15/02/2023, 09:24 - Diana: This project is going well.
+15/02/2023, 09:27 - Diana: I'm busy right now.
+[15/02/2023, 09:31:38] Diana: Did you see the news? 😱
+[15/02/2023, 21:31:38] Charlie: Meeting is at 5pm.
+15/02/2023, 21:34 - Alice: This project is going well.
+16/02/2023, 09:34 - Bob: Thanks!
+16/02/2023, 09:37 - Diana: Let's catch up later.
+[16/02/2023, 09:39:24] Bob: Good night everyone 💤
+16/02/2023, 09:40 - Alice: I'm busy right now.
+[16/02/2023, 09:42:19] Alice: Good night everyone 💤
+[16/02/2023, 09:43:37] Diana: I disagree with that point.
+[16/02/2023, 09:45:32] Diana: Meeting is at 5pm.
+16/02/2023, 09:47 - Diana: Meeting is at 5pm.
+[16/02/2023, 09:51:02] Charlie: Good night everyone 💤
+[16/02/2023, 10:51:02] Alice: Let's catch up later.
+16/02/2023, 10:53 - Alice: I'm busy right now.
+16/02/2023, 10:57 - Diana: Meeting is at 5pm.
+[16/02/2023, 11:01:42] Charlie: Hey guys, how is it going?
+[16/02/2023, 17:01:42] Diana: Let's catch up later.
+16/02/2023, 17:05 - Bob: Meeting is at 5pm.
+[16/02/2023, 17:08:56] Bob: Thanks!
+[16/02/2023, 17:13:36] Alice: Meeting is at 5pm.
+16/02/2023, 17:15 - Alice: This project is going well.
+17/02/2023, 08:15 - Alice: Meeting is at 5pm.
+[17/02/2023, 08:16:42] Alice: I disagree with that point.
+17/02/2023, 08:20 - Charlie: Good night everyone 💤
+17/02/2023, 10:20 - Alice: I disagree with that point.
+[17/02/2023, 10:22:45] Charlie: Good morning! ☀️
+17/02/2023, 10:23 - Alice: I'm busy right now.
+[17/02/2023, 10:23:36] Alice: Hey guys, how is it going?
+17/02/2023, 10:27 - Bob: I'm busy right now.
+17/02/2023, 10:32 - Charlie: I am running late!
+[17/02/2023, 17:32:36] Diana: Hahaha that is so funny 😂
+[17/02/2023, 21:32:36] Alice: What are we having for lunch?
+[17/02/2023, 21:33:03] Diana: Good night everyone 💤
+[18/02/2023, 08:33:03] Charlie: Great job! 👍
+18/02/2023, 18:33 - Bob: This project is going well.
+18/02/2023, 18:36 - Diana: I disagree with that point.
+[18/02/2023, 18:37:37] Alice: Hahaha that is so funny 😂
+[18/02/2023, 18:38:36] Charlie: I am running late!
+[18/02/2023, 18:40:34] Alice: Meeting is at 5pm.
+18/02/2023, 19:40 - Alice: Great job! 👍
+18/02/2023, 19:41 - Alice: Can you send me the file?
+[18/02/2023, 19:44:11] Charlie: Thanks!
+[18/02/2023, 19:46:16] Bob: Hahaha that is so funny 😂
+18/02/2023, 19:51 - Alice: Meeting is at 5pm.
+18/02/2023, 19:51 - Bob: What are we having for lunch?
+[18/02/2023, 19:54:14] Alice: Can you send me the file?
+18/02/2023, 19:58 - Alice: Hahaha that is so funny 😂
+18/02/2023, 20:00 - Bob: What are we having for lunch?
+18/02/2023, 20:05 - Alice: I'm busy right now.
+[18/02/2023, 20:06:13] Bob: I disagree with that point.
+[18/02/2023, 22:06:13] Bob: What are we having for lunch?
+18/02/2023, 22:10 - Charlie: Hey guys, how is it going?
+18/02/2023, 22:15 - Bob: What are we having for lunch?
+[18/02/2023, 22:16:29] Diana: Good morning! ☀️
+[18/02/2023, 22:18:24] Diana: Can you send me the file?
+[18/02/2023, 22:22:40] Bob: Hahaha that is so funny 😂
+[18/02/2023, 22:24:37] Alice: Great job! 👍
+[18/02/2023, 22:28:49] Bob: Thanks!
+[18/02/2023, 22:32:12] Diana: Great job! 👍
+18/02/2023, 22:33 - Bob: I disagree with that point.
+[19/02/2023, 12:33:20] Diana: Hey guys, how is it going?
+19/02/2023, 12:37 - Alice: What are we having for lunch?
+[19/02/2023, 12:40:34] Charlie: Meeting is at 5pm.
+19/02/2023, 17:40 - Diana: Let's catch up later.
+[20/02/2023, 07:40:34] Charlie: I am running late!
+[20/02/2023, 07:43:17] Charlie: I disagree with that point.
+20/02/2023, 07:47 - Charlie: I disagree with that point.
+[20/02/2023, 13:47:22] Bob: Good night everyone 💤
+[20/02/2023, 13:52:09] Charlie: Good night everyone 💤
+20/02/2023, 23:52 - Alice: Hey guys, how is it going?
+20/02/2023, 23:52 - Alice: Hahaha that is so funny 😂
+[20/02/2023, 23:55:08] Charlie: Good night everyone 💤
+[20/02/2023, 23:55:52] Alice: Good night everyone 💤
+20/02/2023, 23:56 - Charlie: I'm busy right now.
+[21/02/2023, 08:56:31] Bob: Let's catch up later.
+[21/02/2023, 09:00:08] Diana: Great job! 👍
+[21/02/2023, 09:03:19] Alice: Great job! 👍
+21/02/2023, 09:05 - Alice: I am running late!
+[21/02/2023, 09:06:54] Bob: Good morning! ☀️
+21/02/2023, 09:10 - Bob: Hahaha that is so funny 😂
+[21/02/2023, 09:14:22] Bob: Can you send me the file?
+[21/02/2023, 11:14:22] Alice: Let's catch up later.
+[21/02/2023, 13:14:22] Bob: Good night everyone 💤
+21/02/2023, 14:14 - Charlie: Good morning! ☀️
+21/02/2023, 14:16 - Alice: I'm busy right now.
+[21/02/2023, 14:18:42] Alice: Hahaha that is so funny 😂
+21/02/2023, 19:18 - Bob: This project is going well.
+[21/02/2023, 19:20:45] Charlie: Great job! 👍
+21/02/2023, 19:21 - Alice: Can you send me the file?
+21/02/2023, 19:23 - Diana: Good night everyone 💤
+[21/02/2023, 19:25:40] Alice: I am running late!
+[21/02/2023, 19:26:14] Charlie: I'm busy right now.
+21/02/2023, 19:27 - Diana: I'm busy right now.
+21/02/2023, 19:28 - Alice: What are we having for lunch?
+[21/02/2023, 19:30:32] Alice: Good morning! ☀️
+[22/02/2023, 09:30:32] Diana: I disagree with that point.
+22/02/2023, 09:34 - Charlie: Let's catch up later.
+[22/02/2023, 09:39:08] Charlie: Good morning! ☀️
+[22/02/2023, 19:39:08] Diana: Good night everyone 💤
+22/02/2023, 19:42 - Alice: I disagree with that point.
+[22/02/2023, 19:44:35] Charlie: I disagree with that point.
+[22/02/2023, 19:48:28] Alice: Hahaha that is so funny 😂
+[22/02/2023, 19:50:09] Alice: Good morning! ☀️
+22/02/2023, 19:51 - Charlie: Did you see the news? 😱
+[22/02/2023, 19:53:40] Charlie: I disagree with that point.
+[22/02/2023, 19:57:51] Alice: Hahaha that is so funny 😂
+[23/02/2023, 10:57:51] Alice: I am running late!
+23/02/2023, 10:58 - Bob: This project is going well.
+23/02/2023, 11:00 - Bob: Thanks!
+23/02/2023, 11:05 - Bob: This project is going well.
+23/02/2023, 15:05 - Charlie: I am running late!
+24/02/2023, 08:05 - Alice: What are we having for lunch?
+24/02/2023, 08:07 - Diana: Hey guys, how is it going?
+[24/02/2023, 17:07:34] Diana: This project is going well.
+24/02/2023, 23:07 - Diana: Can you send me the file?
+24/02/2023, 23:11 - Diana: Meeting is at 5pm.
+24/02/2023, 23:14 - Diana: Hey guys, how is it going?
+[25/02/2023, 00:14:15] Diana: Great job! 👍
+25/02/2023, 00:15 - Charlie: Hey guys, how is it going?
+25/02/2023, 00:20 - Charlie: Hahaha that is so funny 😂
+25/02/2023, 00:24 - Alice: This project is going well.
+25/02/2023, 00:28 - Alice: Meeting is at 5pm.
+[25/02/2023, 08:28:39] Charlie: I'm busy right now.
+[25/02/2023, 08:31:40] Bob: I am running late!
+25/02/2023, 08:32 - Charlie: Thanks!
+25/02/2023, 08:35 - Bob: What are we having for lunch?
+25/02/2023, 08:38 - Charlie: Let's catch up later.
+[25/02/2023, 08:40:32] Diana: Great job! 👍
+25/02/2023, 08:41 - Bob: Thanks!
+[25/02/2023, 08:45:25] Bob: This project is going well.
+25/02/2023, 08:47 - Bob: Great job! 👍
+25/02/2023, 08:52 - Alice: Good morning! ☀️
+25/02/2023, 08:53 - Alice: I disagree with that point.
+[25/02/2023, 08:53:22] Alice: Meeting is at 5pm.
+[25/02/2023, 08:55:41] Alice: Can you send me the file?
+25/02/2023, 08:56 - Diana: Thanks!
+[25/02/2023, 08:58:56] Charlie: I am running late!
+[25/02/2023, 09:00:37] Bob: Good morning! ☀️
+25/02/2023, 09:03 - Alice: Good morning! ☀️
+25/02/2023, 09:06 - Alice: Meeting is at 5pm.
+25/02/2023, 19:06 - Bob: Thanks!
+[25/02/2023, 19:11:17] Diana: I'm busy right now.
+25/02/2023, 21:11 - Diana: I'm busy right now.
+[25/02/2023, 21:14:02] Bob: I'm busy right now.
+[25/02/2023, 21:14:51] Alice: Hahaha that is so funny 😂
+25/02/2023, 21:15 - Alice: Can you send me the file?
+[25/02/2023, 21:19:55] Diana: What are we having for lunch?
+[25/02/2023, 21:20:52] Charlie: Thanks!
+26/02/2023, 08:20 - Diana: Did you see the news? 😱
+26/02/2023, 11:20 - Alice: Meeting is at 5pm.
+[26/02/2023, 11:24:11] Diana: Hahaha that is so funny 😂
+[26/02/2023, 11:25:44] Diana: Can you send me the file?
+26/02/2023, 19:25 - Bob: Let's catch up later.
+[26/02/2023, 19:29:48] Diana: Good night everyone 💤
+26/02/2023, 19:34 - Diana: I'm busy right now.
+[26/02/2023, 20:34:46] Alice: Did you see the news? 😱
+26/02/2023, 20:35 - Alice: Hey guys, how is it going?
+[26/02/2023, 20:37:50] Diana: Good morning! ☀️
+26/02/2023, 20:42 - Bob: Great job! 👍
+26/02/2023, 21:42 - Diana: What are we having for lunch?
+26/02/2023, 23:42 - Charlie: This project is going well.
+[26/02/2023, 23:43:02] Diana: Thanks!
+26/02/2023, 23:43 - Diana: I'm busy right now.
+26/02/2023, 23:46 - Bob: This project is going well.
+[26/02/2023, 23:48:49] Charlie: Hahaha that is so funny 😂
+26/02/2023, 23:53 - Bob: This project is going well.
+[26/02/2023, 23:54:25] Charlie: What are we having for lunch?
+26/02/2023, 23:56 - Diana: Can you send me the file?
+[26/02/2023, 23:57:04] Diana: Can you send me the file?
+27/02/2023, 00:00 - Alice: Can you send me the file?
