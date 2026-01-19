@@ -21,3 +21,13 @@ pypdf
 reportlab
 ipywidgets
 pingouin
+transformers
+torch
+plotly
+pymc
+arviz
+sentence-transformers
+faiss-cpu
+panel
+linearmodels
+nbformat

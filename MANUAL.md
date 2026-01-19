@@ -68,6 +68,10 @@ This manual provides an overview of the tools available in this repository. All 
 - [SQL for Data Analysts](#sql-for-data-analysts)
 - [Advanced Visualization with Plotly](#advanced-visualization-with-plotly)
 - [Introduction to Transformers for NLP](#introduction-to-transformers-for-nlp)
+- [Bayesian Analysis with PyMC](#bayesian-analysis-with-pymc)
+- [Retrieval-Augmented Generation (RAG) for Research](#retrieval-augmented-generation-rag-for-research)
+- [Building Interactive Dashboards with Panel](#building-interactive-dashboards-with-panel)
+- [Causal Inference: Instrumental Variables (IV)](#causal-inference:-instrumental-variables-iv)
 
 ---
 
@@ -836,5 +840,53 @@ This manual provides an overview of the tools available in this repository. All 
 **Status:** Verified ✅
 
 [Open Notebook](social_science_research_notebooks/64_intro_to_transformers.ipynb)
+
+---
+
+### Bayesian Analysis with PyMC
+
+**File:** `65_bayesian_analysis_pymc.ipynb`
+
+**Description:** Bayesian statistics offers a powerful alternative to frequentist (classic) statistics. Instead of calculating a single 'p-value', Bayesian analysis allows us to estimate the **probability distribution** of our parameters given the data. In this notebook, we will use **PyMC** (formerly PyMC3), the standard library for Probabilistic Programming in Python, to perform a simple Bayesian Linear Regression. **Key Concepts:** 1.  **Prior**: What we believe about the parameters *before* seeing data. 2.  **Likelihood**: How likely the data is given the parameters. 3.  **Posterior**: What we believe about the parameters *after* seeing data (Prior + Likelihood).
+
+**Status:** Verified ✅
+
+[Open Notebook](social_science_research_notebooks/65_bayesian_analysis_pymc.ipynb)
+
+---
+
+### Retrieval-Augmented Generation (RAG) for Research
+
+**File:** `66_rag_for_research.ipynb`
+
+**Description:** **RAG** is a technique to improve the accuracy of Large Language Models (LLMs) by giving them access to private or specific data. Instead of relying solely on what the model 'knows' from its training, we **retrieve** relevant documents and feed them to the model as context. This is incredibly useful for qualitative researchers who want to "chat" with their interview transcripts or literature review. **Steps:** 1.  **Embed**: Convert text documents into numbers (vectors). 2.  **Index**: Store vectors in a searchable database (FAISS). 3.  **Retrieve**: Find the most relevant documents for a user question. 4.  **Generate**: Ask an LLM to answer the question using the retrieved text.
+
+**Status:** Verified ✅
+
+[Open Notebook](social_science_research_notebooks/66_rag_for_research.ipynb)
+
+---
+
+### Building Interactive Dashboards with Panel
+
+**File:** `67_dashboard_with_panel.ipynb`
+
+**Description:** **Panel** is a powerful library that lets you create custom interactive web apps and dashboards by connecting user-defined widgets to plots, images, tables, or text. Unlike Streamlit (which reruns the whole script), Panel is designed to work well within Jupyter Notebooks and can also be deployed as a standalone app. In this notebook, we will build a dashboard to explore a synthetic dataset of **Public Opinion Polling**.
+
+**Status:** Verified ✅
+
+[Open Notebook](social_science_research_notebooks/67_dashboard_with_panel.ipynb)
+
+---
+
+### Causal Inference: Instrumental Variables (IV)
+
+**File:** `68_instrumental_variables.ipynb`
+
+**Description:** One of the biggest challenges in social science is **Endogeneity** (Omitted Variable Bias). This happens when there is a hidden variable that affects both your treatment (cause) and your outcome (effect). For example, let's say we want to study the effect of **Education** on **Income**. - Problem: **Ability** (unobserved) affects both Education and Income. - Result: Naive regression overestimates the return to education. **Instrumental Variables (IV)** allow us to isolate the causal effect by using a third variable (Z) that affects Education (X) but has *no direct effect* on Income (Y) except through Education.
+
+**Status:** Verified ✅
+
+[Open Notebook](social_science_research_notebooks/68_instrumental_variables.ipynb)
 
 ---
