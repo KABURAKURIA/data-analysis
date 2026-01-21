@@ -6,15 +6,15 @@ This manual provides an overview of the tools available in this repository. All 
 
 - [WhatsApp Chat Analysis In-Depth](#whatsapp-chat-analysis-in-depth)
 - [Sentiment Analysis In-Depth](#sentiment-analysis-in-depth)
-- [Topic Modeling (LDA)](#topic-modeling-lda)
-- [Word Cloud & N-Grams](#word-cloud-n-grams)
-- [Named Entity Recognition (NER)](#named-entity-recognition-ner)
-- [Hate Speech/Toxicity Detection](#hate-speechtoxicity-detection)
-- [Text Preprocessing Pipeline](#text-preprocessing-pipeline)
-- [Survey Data Cleaning](#survey-data-cleaning)
+- [Topic Modeling (LDA) In-Depth](#topic-modeling-lda-in-depth)
+- [Word Cloud & N-Grams In-Depth](#word-cloud-n-grams-in-depth)
+- [Named Entity Recognition (NER) In-Depth](#named-entity-recognition-ner-in-depth)
+- [Hate Speech / Toxicity Detection In-Depth](#hate-speech-toxicity-detection-in-depth)
+- [Text Preprocessing Pipeline In-Depth](#text-preprocessing-pipeline-in-depth)
+- [Survey Data Cleaning: An In-Depth Guide](#survey-data-cleaning:-an-in-depth-guide)
 - [Descriptive Statistics](#descriptive-statistics)
 - [Likert Scale Analysis In-Depth](#likert-scale-analysis-in-depth)
-- [Hypothesis Testing (T-tests/ANOVA)](#hypothesis-testing-t-testsanova)
+- [Group Comparisons: T-tests & ANOVA](#group-comparisons:-t-tests-anova)
 - [Linear Regression Analysis In-Depth](#linear-regression-analysis-in-depth)
 - [Logistic Regression](#logistic-regression)
 - [Factor Analysis (PCA)](#factor-analysis-pca)
@@ -26,7 +26,7 @@ This manual provides an overview of the tools available in this repository. All 
 - [Geospatial Mapping](#geospatial-mapping)
 - [Automated Coding Assistant](#automated-coding-assistant)
 - [Inter-rater Reliability](#inter-rater-reliability)
-- [Basic Web Scraping](#basic-web-scraping)
+- [Web Scraping for Social Science: An In-Depth Guide](#web-scraping-for-social-science:-an-in-depth-guide)
 - [API Data Collection](#api-data-collection)
 - [Data Format Converter](#data-format-converter)
 - [Missing Data Imputation](#missing-data-imputation)
@@ -51,7 +51,7 @@ This manual provides an overview of the tools available in this repository. All 
 - [Nested JSON Flattening](#nested-json-flattening)
 - [Advanced Date and Time Handling](#advanced-date-and-time-handling)
 - [Interactive Widgets](#interactive-widgets)
-- [Data Anonymization](#data-anonymization)
+- [Data Anonymization & Privacy](#data-anonymization-privacy)
 - [Multiple Imputation for Missing Data](#multiple-imputation-for-missing-data)
 - [Exporting Results](#exporting-results)
 - [Repeated Measures ANOVA In-Depth](#repeated-measures-anova-in-depth)
@@ -72,6 +72,11 @@ This manual provides an overview of the tools available in this repository. All 
 - [Retrieval-Augmented Generation (RAG) for Research](#retrieval-augmented-generation-rag-for-research)
 - [Building Interactive Dashboards with Panel](#building-interactive-dashboards-with-panel)
 - [Causal Inference: Instrumental Variables (IV)](#causal-inference:-instrumental-variables-iv)
+- [Python Basics for Social Scientists](#python-basics-for-social-scientists)
+- [Pandas Manipulation Basics](#pandas-manipulation-basics)
+- [Data Visualization 101](#data-visualization-101)
+- [Advanced ML: Gradient Boosting with XGBoost](#advanced-ml:-gradient-boosting-with-xgboost)
+- [Neural Networks for Tabular Data (PyTorch)](#neural-networks-for-tabular-data-pytorch)
 
 ---
 
@@ -79,7 +84,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 **File:** `01_whatsapp_chat_analysis.ipynb`
 
-**Description:** This notebook provides a comprehensive toolkit for analyzing exported WhatsApp chat data. It goes beyond simple counting to include sentiment analysis over time, response time analysis, and activity heatmaps.
+**Description:** This notebook provides a comprehensive toolkit for analyzing exported WhatsApp chat data. Unlike basic tutorials, this notebook covers: 1.  **Robust Data Generation**: Creating a realistic synthetic dataset for testing. 2.  **Advanced Parsing**: Handling multiple device formats (iOS/Android) and multi-line messages. 3.  **Temporal Analysis**: Activity heatmaps (Day x Hour) and response time distributions. 4.  **Content Analysis**: Sentiment tracking, Emoji frequency, and Word Clouds. 5.  **Interaction Network**: visualizing who replies to whom. - `pandas`: Data manipulation. - `seaborn` / `matplotlib`: Visualization. - `emoji`: Extracting and counting emojis. - `textblob`: Sentiment analysis. - `wordcloud`: Visualizing frequent terms.
 
 **Status:** Verified ✅
 
@@ -99,11 +104,11 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Topic Modeling (LDA)
+### Topic Modeling (LDA) In-Depth
 
 **File:** `03_topic_modeling.ipynb`
 
-**Description:** This notebook demonstrates how to extract topics from a collection of documents using Latent Dirichlet Allocation (LDA) with Scikit-Learn.
+**Description:** Topic modeling is an unsupervised machine learning technique used to discover abstract "topics" that occur in a collection of documents. This notebook demonstrates how to use **Latent Dirichlet Allocation (LDA)** with Scikit-Learn to extract themes from a synthetic dataset of research abstracts. 1.  Generate a synthetic dataset with distinct underlying themes. 2.  Preprocess text data (Tokenization, Stopword Removal). 3.  Vectorize text using CountVectorizer (Bag of Words). 4.  Fit an LDA model. 5.  Visualize and interpret the topics.
 
 **Status:** Verified ✅
 
@@ -111,11 +116,11 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Word Cloud & N-Grams
+### Word Cloud & N-Grams In-Depth
 
 **File:** `04_wordcloud_ngrams.ipynb`
 
-**Description:** Visualizes frequent words and phrases using WordCloud and NLTK.
+**Description:** This notebook explores text visualization techniques beyond simple frequency counts. We will generate a larger synthetic dataset, preprocess it, and visualize not just single words (unigrams) but also pairs (bigrams) and triplets (trigrams) to understand context.
 
 **Status:** Verified ✅
 
@@ -123,11 +128,11 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Named Entity Recognition (NER)
+### Named Entity Recognition (NER) In-Depth
 
 **File:** `05_named_entity_recognition.ipynb`
 
-**Description:** Identifies people, organizations, and locations in text using SpaCy or NLTK (using NLTK here for simplicity without heavy models).
+**Description:** NER involves identifying and classifying named entities (people, organizations, locations, dates) in text. This notebook compares NLTK (rule-based/statistical) and SpaCy (model-based) approaches, and visualizes the results on a synthetic news article.
 
 **Status:** Verified ✅
 
@@ -135,11 +140,11 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Hate Speech/Toxicity Detection
+### Hate Speech / Toxicity Detection In-Depth
 
 **File:** `06_hate_speech_detection.ipynb`
 
-**Description:** Demonstrates a basic text classification pipeline for detecting toxic comments.
+**Description:** This notebook demonstrates a supervised learning pipeline for detecting toxic comments. We will generate a synthetic dataset, extract features using TF-IDF, train a Logistic Regression model, and evaluating its performance using industry-standard metrics.
 
 **Status:** Verified ✅
 
@@ -147,11 +152,11 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Text Preprocessing Pipeline
+### Text Preprocessing Pipeline In-Depth
 
 **File:** `07_text_preprocessing.ipynb`
 
-**Description:** Comprehensive guide to cleaning text (stopwords, lemmatization, etc.).
+**Description:** Preprocessing is the foundation of NLP. A bad cleaning pipeline creates "garbage in, garbage out". This notebook demonstrates a robust pipeline handling URLs, HTML tags, emojis, and compares Stemming vs. Lemmatization.
 
 **Status:** Verified ✅
 
@@ -159,11 +164,11 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Survey Data Cleaning
+### Survey Data Cleaning: An In-Depth Guide
 
 **File:** `08_survey_cleaning.ipynb`
 
-**Description:** Techniques for handling missing values, recoding variables, and data type conversion.
+**Description:** Real-world survey data is rarely clean. It contains duplicates, inconsistent spelling, outliers, and missing values. This notebook demonstrates a professional workflow for cleaning a messy dataset using `pandas`. 1.  **Detect and remove duplicates.** 2.  **Standardize categorical variables** (e.g., mapping "m", "Male", "M" to "Male"). 3.  **Handle missing data** effectively (Drop vs Impute). 4.  **Detect outliers** in numeric responses. 5.  **Recode reverse-coded items** (common in psychological surveys).
 
 **Status:** Verified ✅
 
@@ -195,11 +200,11 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Hypothesis Testing (T-tests/ANOVA)
+### Group Comparisons: T-tests & ANOVA
 
 **File:** `11_group_comparisons.ipynb`
 
-**Description:** Comparing means between groups.
+**Description:** A fundamental task in social science is comparing means between groups (e.g., Treatment vs Control). This notebook goes beyond simple p-values to include: 1.  **Assumption Checking**: Normality and Homogeneity of Variance. 2.  **Effect Size**: Cohen's d (t-test) and Eta-squared (ANOVA). 3.  **Visualization**: Boxplots with jitter points to show raw data. 4.  **Post-hoc Testing**: Determining exactly *which* groups differ.
 
 **Status:** Verified ✅
 
@@ -339,11 +344,11 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Basic Web Scraping
+### Web Scraping for Social Science: An In-Depth Guide
 
 **File:** `23_web_scraping.ipynb`
 
-**Description:** Collecting data from websites using BeautifulSoup and Requests.
+**Description:** Web scraping is a powerful tool for collecting digital trace data. This notebook moves beyond simple tutorials to cover robust, ethical, and structured data collection. 1.  **Ethical Scraping**: `robots.txt` and rate limiting. 2.  **HTML Parsing**: Navigating the DOM with `BeautifulSoup`. 3.  **Pagination**: looping through multiple pages. 4.  **Error Handling**: Managing timeouts and missing elements. 5.  **Data Structuring**: Saving results to a clean CSV.
 
 **Status:** Verified ✅
 
@@ -639,11 +644,11 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Data Anonymization
+### Data Anonymization & Privacy
 
 **File:** `48_data_anonymization.ipynb`
 
-**Description:** Basic techniques to protect privacy: Hashing identifiers and binning quasi-identifiers.
+**Description:** Protecting participant privacy is a core ethical requirement in social science. This notebook demonstrates techniques for de-identifying data, including hashing, k-anonymity, and differential privacy concepts. 1.  **Direct Identifiers**: Names, SSNs, Emails (Must be removed/hashed). 2.  **Quasi-Identifiers (QI)**: Age, Zip Code, Gender (Can be combined to re-identify). 3.  **K-Anonymity**: Ensuring any record is indistinguishable from at least *k-1* other records.
 
 **Status:** Verified ✅
 
@@ -799,7 +804,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 **File:** `61_data_analyst_roadmap.ipynb`
 
-**Description:** This notebook serves as a comprehensive guide through the Data Analyst Roadmap, mapping key concepts to practical Python implementations found within this repository. Whether you are starting with Excel concepts or moving into advanced Machine Learning, this guide links you to specific, deep-dive notebooks that demonstrate these skills using realistic social science data. **Roadmap Sections:** 1.  Introduction & Excel Equivalents 2.  Programming & Data Manipulation (Pandas) 3.  Data Collection (APIs, Scraping) 4.  Data Cleanup (Missing Data, Outliers) 5.  Exploratory Data Analysis (Visualization) 6.  Statistical Analysis (Hypothesis Testing, Regression) 7.  Machine Learning
+**Description:** This notebook serves as a comprehensive guide through the Data Analyst Roadmap, mapping key concepts to practical Python implementations found within this repository. Whether you are starting with Excel concepts or moving into advanced Machine Learning, this guide links you to specific, deep-dive notebooks that demonstrate these skills using realistic social science data. **Roadmap Sections:** 1.  Introduction & Excel Equivalents 2.  Programming & Data Manipulation (Pandas) 3.  Data Collection (Databases, APIs, Scraping) 4.  Data Cleanup (Missing Data, Outliers) 5.  Data Analysis Techniques (Statistical Moments) 6.  Exploratory Data Analysis & Visualization 7.  Statistical Analysis (Hypothesis Testing, Regression) 8.  Advanced Topics (Machine Learning, Big Data) 9.  Projects & Portfolio
 
 **Status:** Verified ✅
 
@@ -823,7 +828,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 **File:** `63_advanced_visualization_plotly.ipynb`
 
-**Description:** While `matplotlib` and `seaborn` are excellent for static publications, `plotly` allows for interactive data exploration (zooming, hovering, filtering). In this notebook, we will create: 1.  Interactive Scatter Plots (with hover data) 2.  Interactive Line Charts 3.  Box Plots with points 4.  3D Scatter Plots
+**Description:** While `matplotlib` and `seaborn` are excellent for static publications, `plotly` allows for interactive data exploration (zooming, hovering, filtering). In this notebook, we will create: 1.  Interactive Scatter Plots (with hover data) 2.  Interactive Line Charts 3.  Box Plots with points 4.  3D Scatter Plots 5.  Funnel Charts
 
 **Status:** Verified ✅
 
@@ -888,5 +893,65 @@ This manual provides an overview of the tools available in this repository. All 
 **Status:** Verified ✅
 
 [Open Notebook](social_science_research_notebooks/68_instrumental_variables.ipynb)
+
+---
+
+### Python Basics for Social Scientists
+
+**File:** `69_python_basics_for_social_scientists.ipynb`
+
+**Description:** This notebook covers the fundamental building blocks of Python programming: Variables, Data Structures (Lists, Dictionaries), Loops, and Functions. We will use social science examples (e.g., ages of participants) to make it practical.
+
+**Status:** Verified ✅
+
+[Open Notebook](social_science_research_notebooks/69_python_basics_for_social_scientists.ipynb)
+
+---
+
+### Pandas Manipulation Basics
+
+**File:** `70_pandas_manipulation_basics.ipynb`
+
+**Description:** Pandas is the most powerful tool for tabular data manipulation in Python. Think of it as 'Excel on steroids'. This notebook covers DataFrames, Filtering, and Aggregation.
+
+**Status:** Verified ✅
+
+[Open Notebook](social_science_research_notebooks/70_pandas_manipulation_basics.ipynb)
+
+---
+
+### Data Visualization 101
+
+**File:** `71_data_visualization_101.ipynb`
+
+**Description:** This notebook introduces `matplotlib` and `seaborn` for creating publication-quality plots.
+
+**Status:** Verified ✅
+
+[Open Notebook](social_science_research_notebooks/71_data_visualization_101.ipynb)
+
+---
+
+### Advanced ML: Gradient Boosting with XGBoost
+
+**File:** `72_advanced_ml_xgboost.ipynb`
+
+**Description:** XGBoost (eXtreme Gradient Boosting) is one of the most popular and efficient algorithms for structured (tabular) data. It often outperforms other algorithms like Random Forests.
+
+**Status:** Verified ✅
+
+[Open Notebook](social_science_research_notebooks/72_advanced_ml_xgboost.ipynb)
+
+---
+
+### Neural Networks for Tabular Data (PyTorch)
+
+**File:** `73_neural_networks_tabular.ipynb`
+
+**Description:** While Deep Learning is famous for Images and NLP, it can also be used for tabular data. This notebook demonstrates how to build a simple Multi-Layer Perceptron (MLP) using PyTorch.
+
+**Status:** Verified ✅
+
+[Open Notebook](social_science_research_notebooks/73_neural_networks_tabular.ipynb)
 
 ---
