@@ -77,6 +77,9 @@ This manual provides an overview of the tools available in this repository. All 
 - [Data Visualization 101](#data-visualization-101)
 - [Advanced ML: Gradient Boosting with XGBoost](#advanced-ml:-gradient-boosting-with-xgboost)
 - [Neural Networks for Tabular Data (PyTorch)](#neural-networks-for-tabular-data-pytorch)
+- [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
+- [MLOps: Model Persistence](#mlops:-model-persistence)
+- [Hypothesis Testing Roadmap](#hypothesis-testing-roadmap)
 
 ---
 
@@ -804,7 +807,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 **File:** `61_data_analyst_roadmap.ipynb`
 
-**Description:** This notebook serves as a comprehensive guide through the Data Analyst Roadmap, mapping key concepts to practical Python implementations found within this repository. Whether you are starting with Excel concepts or moving into advanced Machine Learning, this guide links you to specific, deep-dive notebooks that demonstrate these skills using realistic social science data. **Roadmap Sections:** 1.  Introduction & Excel Equivalents 2.  Programming & Data Manipulation (Pandas) 3.  Data Collection (Databases, APIs, Scraping) 4.  Data Cleanup (Missing Data, Outliers) 5.  Data Analysis Techniques (Statistical Moments) 6.  Exploratory Data Analysis & Visualization 7.  Statistical Analysis (Hypothesis Testing, Regression) 8.  Advanced Topics (Machine Learning, Big Data) 9.  Projects & Portfolio
+**Description:** This notebook serves as a comprehensive guide through the Data Analyst Roadmap, mapping key concepts to practical Python implementations found within this repository. It is aligned with industry standard roadmaps (e.g., [roadmap.sh/data-analyst](https://roadmap.sh/data-analyst)) and covers everything from Excel foundations to Advanced Machine Learning. **Roadmap Sections:** 1.  Introduction & Types of Analytics 2.  Building a Strong Foundation (Excel Equivalents) 3.  Programming Languages (Python) 4.  Data Collection (Databases, APIs, Scraping) 5.  Data Cleanup (Handling Missing Data, Outliers) 6.  Exploratory Data Analysis (EDA) & Visualization 7.  Statistical Analysis 8.  Advanced Topics (Machine Learning, Deep Learning, Big Data) 9.  Projects & Portfolio 10. Soft Skills & Networking
 
 **Status:** Verified ✅
 
@@ -953,5 +956,41 @@ This manual provides an overview of the tools available in this repository. All 
 **Status:** Verified ✅
 
 [Open Notebook](social_science_research_notebooks/73_neural_networks_tabular.ipynb)
+
+---
+
+### Exploratory Data Analysis (EDA)
+
+**File:** `74_exploratory_data_analysis.ipynb`
+
+**Description:** A comprehensive workflow for inspecting, cleaning, and understanding your data before modeling.
+
+**Status:** Verified ✅
+
+[Open Notebook](social_science_research_notebooks/74_exploratory_data_analysis.ipynb)
+
+---
+
+### MLOps: Model Persistence
+
+**File:** `75_mlops_model_persistence.ipynb`
+
+**Description:** Saving and loading Machine Learning models for production use using `joblib` and `pickle`.
+
+**Status:** Verified ✅
+
+[Open Notebook](social_science_research_notebooks/75_mlops_model_persistence.ipynb)
+
+---
+
+### Hypothesis Testing Roadmap
+
+**File:** `76_hypothesis_testing_roadmap.ipynb`
+
+**Description:** A guide to choosing the correct statistical test for your research question.
+
+**Status:** Verified ✅
+
+[Open Notebook](social_science_research_notebooks/76_hypothesis_testing_roadmap.ipynb)
 
 ---
