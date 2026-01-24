@@ -3,7 +3,7 @@ numpy
 matplotlib
 seaborn
 nltk
-scikit-learn
+scikit-learn<1.6
 networkx
 statsmodels
 wordcloud
@@ -33,3 +33,10 @@ linearmodels
 nbformat
 xgboost
 prophet
+semopy
+openai-whisper
+gTTS
+torchvision
+pillow
+factor_analyzer
+Faker
