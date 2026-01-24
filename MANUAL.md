@@ -17,7 +17,7 @@ This manual provides an overview of the tools available in this repository. All 
 - [Group Comparisons: T-tests & ANOVA](#group-comparisons:-t-tests-anova)
 - [Linear Regression Analysis In-Depth](#linear-regression-analysis-in-depth)
 - [Logistic Regression](#logistic-regression)
-- [Factor Analysis (PCA)](#factor-analysis-pca)
+- [Exploratory Factor Analysis (EFA)](#exploratory-factor-analysis-efa)
 - [Cluster Analysis](#cluster-analysis)
 - [Social Network Construction & Analysis](#social-network-construction-analysis)
 - [Network Centrality Measures](#network-centrality-measures)
@@ -80,6 +80,11 @@ This manual provides an overview of the tools available in this repository. All 
 - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
 - [MLOps: Model Persistence](#mlops:-model-persistence)
 - [Hypothesis Testing Roadmap](#hypothesis-testing-roadmap)
+- [Audio Transcription with Whisper](#audio-transcription-with-whisper)
+- [Image Analysis Basics](#image-analysis-basics)
+- [Structural Equation Modeling (SEM)](#structural-equation-modeling-sem)
+- [A/B Testing and Power Analysis](#ab-testing-and-power-analysis)
+- [Conjoint Analysis (Rating-Based)](#conjoint-analysis-rating-based)
 
 ---
 
@@ -99,7 +104,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 **File:** `02_sentiment_analysis.ipynb`
 
-**Description:** This notebook provides a deep dive into sentiment analysis using two popular libraries: TextBlob and NLTK (VADER). We will compare their performance on a dataset of reviews, clean the text, and visualize the results.
+**Description:** This notebook provides a deep dive into sentiment analysis using two popular libraries: TextBlob and NLTK (VADER). We will compare their performance on a comprehensive synthetic dataset of movie reviews, clean the text, and visualize the results.
 
 **Status:** Verified ✅
 
@@ -239,11 +244,11 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Factor Analysis (PCA)
+### Exploratory Factor Analysis (EFA)
 
 **File:** `14_factor_analysis.ipynb`
 
-**Description:** Reducing dimensionality of data.
+**Description:** This notebook demonstrates how to perform Exploratory Factor Analysis (EFA) to uncover latent structures in survey data. We use the `factor_analyzer` library to identify underlying factors (e.g., personality traits) from a set of observed variables (Likert items).
 
 **Status:** Verified ✅
 
@@ -555,7 +560,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 **File:** `40_text_classification.ipynb`
 
-**Description:** Classifying text into predefined categories using TF-IDF and Linear SVM.
+**Description:** Classifying text into predefined categories using TF-IDF with Linear SVM and Naive Bayes.
 
 **Status:** Verified ✅
 
@@ -992,5 +997,65 @@ This manual provides an overview of the tools available in this repository. All 
 **Status:** Verified ✅
 
 [Open Notebook](social_science_research_notebooks/76_hypothesis_testing_roadmap.ipynb)
+
+---
+
+### Audio Transcription with Whisper
+
+**File:** `77_audio_transcription.ipynb`
+
+**Description:** This notebook demonstrates how to transcribe audio using OpenAI's Whisper model and generate speech using gTTS.
+
+**Status:** Verified ✅
+
+[Open Notebook](social_science_research_notebooks/77_audio_transcription.ipynb)
+
+---
+
+### Image Analysis Basics
+
+**File:** `78_image_analysis_basics.ipynb`
+
+**Description:** This notebook demonstrates how to load, process, and classify images using PyTorch and Torchvision.
+
+**Status:** Verified ✅
+
+[Open Notebook](social_science_research_notebooks/78_image_analysis_basics.ipynb)
+
+---
+
+### Structural Equation Modeling (SEM)
+
+**File:** `79_sem_structural_equation_modeling.ipynb`
+
+**Description:** This notebook demonstrates how to perform Structural Equation Modeling using `semopy`.
+
+**Status:** Verified ✅
+
+[Open Notebook](social_science_research_notebooks/79_sem_structural_equation_modeling.ipynb)
+
+---
+
+### A/B Testing and Power Analysis
+
+**File:** `80_ab_testing_basics.ipynb`
+
+**Description:** This notebook demonstrates how to design and analyze A/B tests using Python.
+
+**Status:** Verified ✅
+
+[Open Notebook](social_science_research_notebooks/80_ab_testing_basics.ipynb)
+
+---
+
+### Conjoint Analysis (Rating-Based)
+
+**File:** `81_conjoint_analysis.ipynb`
+
+**Description:** This notebook demonstrates how to perform a Rating-Based Conjoint Analysis. We will generate synthetic data representing consumer preferences for a product (e.g., a Smartphone) with varying attributes (Price, Brand, Storage) and estimate the utility of each attribute level using OLS regression.
+
+**Status:** Verified ✅
+
+[Open Notebook](social_science_research_notebooks/81_conjoint_analysis.ipynb)
 
 ---
