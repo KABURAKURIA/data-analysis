@@ -12,11 +12,11 @@ This manual provides an overview of the tools available in this repository. All 
 - [Hate Speech / Toxicity Detection In-Depth](#hate-speech-toxicity-detection-in-depth)
 - [Text Preprocessing Pipeline In-Depth](#text-preprocessing-pipeline-in-depth)
 - [Survey Data Cleaning: An In-Depth Guide](#survey-data-cleaning:-an-in-depth-guide)
-- [Descriptive Statistics](#descriptive-statistics)
+- [Descriptive Statistics In-Depth](#descriptive-statistics-in-depth)
 - [Likert Scale Analysis In-Depth](#likert-scale-analysis-in-depth)
 - [Group Comparisons: T-tests & ANOVA](#group-comparisons:-t-tests-anova)
 - [Linear Regression Analysis In-Depth](#linear-regression-analysis-in-depth)
-- [Logistic Regression](#logistic-regression)
+- [Logistic Regression In-Depth](#logistic-regression-in-depth)
 - [Exploratory Factor Analysis (EFA)](#exploratory-factor-analysis-efa)
 - [Cluster Analysis](#cluster-analysis)
 - [Social Network Construction & Analysis](#social-network-construction-analysis)
@@ -31,8 +31,8 @@ This manual provides an overview of the tools available in this repository. All 
 - [Data Format Converter](#data-format-converter)
 - [Missing Data Imputation](#missing-data-imputation)
 - [Merge and Join Datasets](#merge-and-join-datasets)
-- [Outlier Detection](#outlier-detection)
-- [Causal Inference (Propensity Score)](#causal-inference-propensity-score)
+- [Outlier Detection In-Depth](#outlier-detection-in-depth)
+- [Causal Inference: Propensity Score Matching (PSM)](#causal-inference:-propensity-score-matching-psm)
 - [Model Evaluation Metrics](#model-evaluation-metrics)
 - [Multilevel Modeling (Hierarchical Linear Models)](#multilevel-modeling-hierarchical-linear-models)
 - [Survival Analysis](#survival-analysis)
@@ -85,6 +85,9 @@ This manual provides an overview of the tools available in this repository. All 
 - [Structural Equation Modeling (SEM)](#structural-equation-modeling-sem)
 - [A/B Testing and Power Analysis](#ab-testing-and-power-analysis)
 - [Conjoint Analysis (Rating-Based)](#conjoint-analysis-rating-based)
+- [Algorithmic Fairness Audit](#algorithmic-fairness-audit)
+- [Advanced Topic Modeling with BERTopic](#advanced-topic-modeling-with-bertopic)
+- [Handling Large Datasets](#handling-large-datasets)
 
 ---
 
@@ -184,11 +187,11 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Descriptive Statistics
+### Descriptive Statistics In-Depth
 
 **File:** `09_descriptive_stats.ipynb`
 
-**Description:** Summary statistics and distribution plots.
+**Description:** This notebook goes beyond basic summaries to explore robust statistics, distribution shapes, and grouped analyses using a realistic synthetic dataset.
 
 **Status:** Verified ✅
 
@@ -232,11 +235,11 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Logistic Regression
+### Logistic Regression In-Depth
 
 **File:** `13_logistic_regression.ipynb`
 
-**Description:** Predicting binary outcomes.
+**Description:** Predicting binary outcomes (Voting Behavior) using Logistic Regression. We will use `statsmodels` for statistical inference (Odds Ratios) and `scikit-learn` for predictive evaluation.
 
 **Status:** Verified ✅
 
@@ -412,11 +415,11 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Outlier Detection
+### Outlier Detection In-Depth
 
 **File:** `28_outlier_detection.ipynb`
 
-**Description:** Identifying and handling outliers using Z-score.
+**Description:** Identifying and handling outliers is crucial in social science research. We explore three methods: 1.  **Z-Score**: Parametric method (assumes normality). 2.  **IQR Method**: Non-parametric method (robust to extreme values). 3.  **Isolation Forest**: Machine Learning method for high-dimensional or complex data.
 
 **Status:** Verified ✅
 
@@ -424,11 +427,11 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Causal Inference (Propensity Score)
+### Causal Inference: Propensity Score Matching (PSM)
 
 **File:** `29_causal_inference.ipynb`
 
-**Description:** Simple demonstration of logic for matching (requires causalinference lib usually, but showing logic here).
+**Description:** In observational studies, we cannot randomly assign treatment. This leads to **selection bias**: the treated group might be fundamentally different from the control group. **Propensity Score Matching (PSM)** attempts to mimic a randomized control trial (RCT) by matching treated units with control units that have similar probabilities of receiving the treatment (Propensity Scores).
 
 **Status:** Verified ✅
 
@@ -1057,5 +1060,41 @@ This manual provides an overview of the tools available in this repository. All 
 **Status:** Verified ✅
 
 [Open Notebook](social_science_research_notebooks/81_conjoint_analysis.ipynb)
+
+---
+
+### Algorithmic Fairness Audit
+
+**File:** `82_fairness_audit_in_ai.ipynb`
+
+**Description:** As social scientists, we are often concerned with inequality and bias. When Machine Learning models are used to make decisions (e.g., hiring, loans, policing), they can reproduce or even amplify existing social biases. In this notebook, we will: 1.  Generate a synthetic "Hiring" dataset with intentional gender bias. 2.  Train a standard Logistic Regression model. 3.  Audit the model using `fairlearn` and manual metrics. 4.  Explore mitigation strategies.
+
+**Status:** Verified ✅
+
+[Open Notebook](social_science_research_notebooks/82_fairness_audit_in_ai.ipynb)
+
+---
+
+### Advanced Topic Modeling with BERTopic
+
+**File:** `83_advanced_topic_modeling_bertopic.ipynb`
+
+**Description:** Latent Dirichlet Allocation (LDA) (covered in notebook 03) is the classic method for topic modeling. However, it relies on a "Bag-of-Words" approach, ignoring the semantic meaning of words. **BERTopic** is a modern topic modeling technique that leverages **Transformers** (BERT embeddings) to understand the context of words. It works by: 1.  Converting documents to vectors (Embeddings). 2.  Reducing dimensionality (UMAP). 3.  Clustering vectors (HDBSCAN). 4.  Extracting keywords (c-TF-IDF).
+
+**Status:** Verified ✅
+
+[Open Notebook](social_science_research_notebooks/83_advanced_topic_modeling_bertopic.ipynb)
+
+---
+
+### Handling Large Datasets
+
+**File:** `84_handling_large_datasets.ipynb`
+
+**Description:** A common hurdle in social science research is the "Out of Memory" error. If you have a 10GB dataset and only 8GB of RAM, you cannot open it with standard `pd.read_csv()`. In this notebook, we explore strategies to handle large data: 1.  **Chunking**: Processing data in small pieces. 2.  **Dask**: Parallel computing with lazy evaluation. 3.  **Efficient Formats**: Using Parquet instead of CSV.
+
+**Status:** Verified ✅
+
+[Open Notebook](social_science_research_notebooks/84_handling_large_datasets.ipynb)
 
 ---
