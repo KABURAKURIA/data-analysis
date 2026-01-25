@@ -40,3 +40,8 @@ torchvision
 pillow
 factor_analyzer
 Faker
+fairlearn
+bertopic
+causalinference
+dask
+pyarrow

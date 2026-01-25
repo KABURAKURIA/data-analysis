@@ -1,6 +1,6 @@
 # Social Science Research Notebooks
 
-This repository contains 60 Jupyter Notebooks designed to cover various aspects of social science research, including data cleaning, analysis, and visualization. These notebooks are designed to handle multiple forms of data.
+This repository contains 84 Jupyter Notebooks designed to cover various aspects of social science research, including data cleaning, analysis, and visualization. These notebooks are designed to handle multiple forms of data.
 
 ## Notebooks List
 
@@ -85,6 +85,9 @@ This repository contains 60 Jupyter Notebooks designed to cover various aspects 
 79. **Structural Equation Modeling (SEM)**: `79_sem_structural_equation_modeling.ipynb`
 80. **A/B Testing and Power Analysis**: `80_ab_testing_basics.ipynb`
 81. **Conjoint Analysis (Rating-Based)**: `81_conjoint_analysis.ipynb`
+82. **Algorithmic Fairness Audit**: `82_fairness_audit_in_ai.ipynb`
+83. **Advanced Topic Modeling (BERTopic)**: `83_advanced_topic_modeling_bertopic.ipynb`
+84. **Handling Large Datasets**: `84_handling_large_datasets.ipynb`
 
 ## Getting Started
 
