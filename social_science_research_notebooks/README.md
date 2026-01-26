@@ -88,6 +88,7 @@ This repository contains 84 Jupyter Notebooks designed to cover various aspects 
 82. **Algorithmic Fairness Audit**: `82_fairness_audit_in_ai.ipynb`
 83. **Advanced Topic Modeling (BERTopic)**: `83_advanced_topic_modeling_bertopic.ipynb`
 84. **Handling Large Datasets**: `84_handling_large_datasets.ipynb`
+85. **Recommender Systems Basics**: `85_recommender_systems_basics.ipynb`
 
 ## Getting Started
 
