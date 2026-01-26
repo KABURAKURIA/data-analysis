@@ -1098,3 +1098,15 @@ This manual provides an overview of the tools available in this repository. All 
 [Open Notebook](social_science_research_notebooks/84_handling_large_datasets.ipynb)
 
 ---
+
+### Multimodal Analysis: Text and Image
+
+**File:** `85_multimodal_analysis.ipynb`
+
+**Description:** This notebook introduces **Multimodal Analysis** using the **CLIP** model via Hugging Face `transformers`. It covers: 1. **Zero-Shot Image Classification**: Classifying images without specific training. 2. **Image-Text Matching**: correlating text and images. 3. **Synthetic Image Generation**: Creating simple images for testing purposes.
+
+**Status:** Verified ✅
+
+[Open Notebook](social_science_research_notebooks/85_multimodal_analysis.ipynb)
+
+---
