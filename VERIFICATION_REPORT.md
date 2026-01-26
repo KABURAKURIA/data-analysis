@@ -12,8 +12,8 @@
 | 08_survey_cleaning.ipynb | PASS |  |
 | 09_descriptive_stats.ipynb | PASS |  |
 | 10_likert_scale_analysis.ipynb | PASS |  |
-| 11_group_comparisons.ipynb | FAIL | An error occurred while executing the following cell: ------------------ import pandas as pd import ... |
-| 12_linear_regression.ipynb | FAIL | An error occurred while executing the following cell: ------------------ import pandas as pd import ... |
+| 11_group_comparisons.ipynb | PASS |  |
+| 12_linear_regression.ipynb | PASS |  |
 | 13_logistic_regression.ipynb | PASS |  |
 | 14_factor_analysis.ipynb | PASS |  |
 | 15_cluster_analysis.ipynb | PASS |  |
@@ -70,3 +70,4 @@
 | 66_rag_for_research.ipynb | FAIL | An error occurred while executing the following cell: ------------------ from sentence_transformers ... |
 | 67_dashboard_with_panel.ipynb | FAIL | An error occurred while executing the following cell: ------------------ import panel as pn import p... |
 | 68_instrumental_variables.ipynb | FAIL | An error occurred while executing the following cell: ------------------ import numpy as np import p... |
+| 85_multimodal_analysis.ipynb | PASS |  |
