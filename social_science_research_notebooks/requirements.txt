@@ -45,3 +45,4 @@ bertopic
 causalinference
 dask
 pyarrow
+shap
