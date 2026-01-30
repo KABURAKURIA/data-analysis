@@ -1,5 +1,6 @@
 import os
 import nbformat
+import re
 
 NOTEBOOKS_DIR = 'social_science_research_notebooks'
 MANUAL_FILE = 'MANUAL.md'
@@ -71,6 +72,9 @@ def generate_manual():
                             clean_lines = [l.strip() for l in lines if not l.strip().startswith('#') and l.strip()]
                             if clean_lines:
                                 desc = " ".join(clean_lines)
+                                # Remove "Description:" prefix if present
+                                desc = re.sub(r'^\*\*Description:\*\*\s*', '', desc, flags=re.IGNORECASE)
+                                desc = re.sub(r'^Description:\s*', '', desc, flags=re.IGNORECASE)
                             break
             except Exception:
                 pass
