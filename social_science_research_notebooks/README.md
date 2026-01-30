@@ -92,6 +92,10 @@ This repository contains 88 Jupyter Notebooks designed to cover various aspects 
 86. **Recommender Systems Basics**: `86_recommender_systems_basics.ipynb`
 87. **Explainable AI (XAI) with SHAP**: `87_explainable_ai_shap.ipynb`
 88. **Time Series Forecasting with Prophet**: `88_time_series_forecasting_prophet.ipynb`
+89. **Qualitative Analysis with LLMs (Zero-Shot Classification)**: `89_qualitative_analysis_with_llms.ipynb`
+90. **Agentic AI Concepts: ReAct Pattern**: `90_agentic_ai_concepts.ipynb`
+91. **Handling Imbalanced Datasets (SMOTE)**: `91_imbalanced_learning.ipynb`
+92. **Bipartite Network Analysis**: `92_bipartite_network_analysis.ipynb`
 
 ## Getting Started
 
