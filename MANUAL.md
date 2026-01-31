@@ -14,80 +14,88 @@ This manual provides an overview of the tools available in this repository. All 
 - [Survey Data Cleaning: An In-Depth Guide](#survey-data-cleaning:-an-in-depth-guide)
 - [Descriptive Statistics In-Depth](#descriptive-statistics-in-depth)
 - [Likert Scale Analysis In-Depth](#likert-scale-analysis-in-depth)
-- [Group Comparisons: T-tests & ANOVA](#group-comparisons:-t-tests-anova)
+- [Group Comparisons: T-tests & ANOVA In-Depth](#group-comparisons:-t-tests-anova-in-depth)
 - [Linear Regression Analysis In-Depth](#linear-regression-analysis-in-depth)
 - [Logistic Regression In-Depth](#logistic-regression-in-depth)
-- [Exploratory Factor Analysis (EFA)](#exploratory-factor-analysis-efa)
-- [Cluster Analysis](#cluster-analysis)
-- [Social Network Construction & Analysis](#social-network-construction-analysis)
-- [Network Centrality Measures](#network-centrality-measures)
-- [Community Detection](#community-detection)
-- [Time Series Analysis](#time-series-analysis)
-- [Geospatial Mapping](#geospatial-mapping)
-- [Automated Coding Assistant](#automated-coding-assistant)
-- [Inter-rater Reliability](#inter-rater-reliability)
+- [Exploratory Factor Analysis (EFA) In-Depth](#exploratory-factor-analysis-efa-in-depth)
+- [Cluster Analysis In-Depth](#cluster-analysis-in-depth)
+- [Social Network Construction & Analysis In-Depth](#social-network-construction-analysis-in-depth)
+- [Network Centrality Measures In-Depth](#network-centrality-measures-in-depth)
+- [Community Detection In-Depth](#community-detection-in-depth)
+- [Time Series Analysis In-Depth](#time-series-analysis-in-depth)
+- [Geospatial Mapping In-Depth](#geospatial-mapping-in-depth)
+- [Automated Coding Assistant In-Depth](#automated-coding-assistant-in-depth)
+- [Inter-rater Reliability In-Depth](#inter-rater-reliability-in-depth)
 - [Web Scraping for Social Science: An In-Depth Guide](#web-scraping-for-social-science:-an-in-depth-guide)
-- [API Data Collection](#api-data-collection)
-- [Data Format Converter](#data-format-converter)
-- [Missing Data Imputation](#missing-data-imputation)
-- [Merge and Join Datasets](#merge-and-join-datasets)
+- [API Data Collection In-Depth](#api-data-collection-in-depth)
+- [Data Format Converter In-Depth](#data-format-converter-in-depth)
+- [Missing Data Imputation In-Depth](#missing-data-imputation-in-depth)
+- [Merge and Join Datasets In-Depth](#merge-and-join-datasets-in-depth)
 - [Outlier Detection In-Depth](#outlier-detection-in-depth)
-- [Causal Inference: Propensity Score Matching (PSM)](#causal-inference:-propensity-score-matching-psm)
-- [Model Evaluation Metrics](#model-evaluation-metrics)
-- [Multilevel Modeling (Hierarchical Linear Models)](#multilevel-modeling-hierarchical-linear-models)
-- [Survival Analysis](#survival-analysis)
-- [Difference-in-Differences (DiD)](#difference-in-differences-did)
-- [Regression Discontinuity Design (RDD)](#regression-discontinuity-design-rdd)
-- [Fixed Effects Model (Panel Data)](#fixed-effects-model-panel-data)
-- [Mediation Analysis](#mediation-analysis)
-- [Moderation Analysis](#moderation-analysis)
-- [Meta-Analysis Visualization](#meta-analysis-visualization)
-- [Document Similarity](#document-similarity)
-- [Supervised Text Classification](#supervised-text-classification)
-- [Decision Tree Classifier](#decision-tree-classifier)
-- [Random Forest Analysis](#random-forest-analysis)
-- [K-Nearest Neighbors (KNN)](#k-nearest-neighbors-knn)
-- [PDF Text Extraction](#pdf-text-extraction)
-- [Nested JSON Flattening](#nested-json-flattening)
+- [Causal Inference: Propensity Score Matching (PSM) In-Depth](#causal-inference:-propensity-score-matching-psm-in-depth)
+- [Model Evaluation Metrics In-Depth](#model-evaluation-metrics-in-depth)
+- [Multilevel Modeling (Hierarchical Linear Models) In-Depth](#multilevel-modeling-hierarchical-linear-models-in-depth)
+- [Survival Analysis In-Depth](#survival-analysis-in-depth)
+- [Difference-in-Differences (DiD) In-Depth](#difference-in-differences-did-in-depth)
+- [Regression Discontinuity Design (RDD) In-Depth](#regression-discontinuity-design-rdd-in-depth)
+- [Fixed Effects Model (Panel Data) In-Depth](#fixed-effects-model-panel-data-in-depth)
+- [Mediation Analysis In-Depth](#mediation-analysis-in-depth)
+- [Moderation Analysis In-Depth](#moderation-analysis-in-depth)
+- [Meta-Analysis Visualization In-Depth](#meta-analysis-visualization-in-depth)
+- [Document Similarity In-Depth](#document-similarity-in-depth)
+- [Supervised Text Classification In-Depth](#supervised-text-classification-in-depth)
+- [Decision Tree Classifier In-Depth](#decision-tree-classifier-in-depth)
+- [Random Forest Analysis In-Depth](#random-forest-analysis-in-depth)
+- [K-Nearest Neighbors (KNN) In-Depth](#k-nearest-neighbors-knn-in-depth)
+- [PDF Text Extraction In-Depth](#pdf-text-extraction-in-depth)
+- [Nested JSON Flattening In-Depth](#nested-json-flattening-in-depth)
 - [Advanced Date and Time Handling](#advanced-date-and-time-handling)
-- [Interactive Widgets](#interactive-widgets)
-- [Data Anonymization & Privacy](#data-anonymization-privacy)
-- [Multiple Imputation for Missing Data](#multiple-imputation-for-missing-data)
-- [Exporting Results](#exporting-results)
+- [Interactive Widgets In-Depth](#interactive-widgets-in-depth)
+- [Data Anonymization & Privacy In-Depth](#data-anonymization-privacy-in-depth)
+- [Multiple Imputation for Missing Data In-Depth](#multiple-imputation-for-missing-data-in-depth)
+- [Exporting Results In-Depth](#exporting-results-in-depth)
 - [Repeated Measures ANOVA In-Depth](#repeated-measures-anova-in-depth)
-- [Mixed ANOVA (Split-Plot Design)](#mixed-anova-split-plot-design)
-- [Signal Detection Theory (SDT)](#signal-detection-theory-sdt)
-- [Reaction Time Analysis](#reaction-time-analysis)
-- [Power Analysis](#power-analysis)
-- [Reliability Analysis (Cronbach's Alpha)](#reliability-analysis-cronbach's-alpha)
-- [Effect Size Calculation](#effect-size-calculation)
-- [Chi-Square Test of Independence](#chi-square-test-of-independence)
-- [Mediation Analysis with Bootstrapping](#mediation-analysis-with-bootstrapping)
-- [Plotting Interaction Effects](#plotting-interaction-effects)
+- [Mixed ANOVA (Split-Plot Design) In-Depth](#mixed-anova-split-plot-design-in-depth)
+- [Signal Detection Theory (SDT) In-Depth](#signal-detection-theory-sdt-in-depth)
+- [Reaction Time Analysis In-Depth](#reaction-time-analysis-in-depth)
+- [Power Analysis In-Depth](#power-analysis-in-depth)
+- [Reliability Analysis (Cronbach's Alpha) In-Depth](#reliability-analysis-cronbach's-alpha-in-depth)
+- [Effect Size Calculation In-Depth](#effect-size-calculation-in-depth)
+- [Chi-Square Test of Independence In-Depth](#chi-square-test-of-independence-in-depth)
+- [Mediation Analysis with Bootstrapping In-Depth](#mediation-analysis-with-bootstrapping-in-depth)
+- [Plotting Interaction Effects In-Depth](#plotting-interaction-effects-in-depth)
 - [Data Analyst Roadmap & Guide](#data-analyst-roadmap-guide)
-- [SQL for Data Analysts](#sql-for-data-analysts)
+- [SQL for Data Analysts In-Depth](#sql-for-data-analysts-in-depth)
 - [Advanced Visualization with Plotly](#advanced-visualization-with-plotly)
-- [Introduction to Transformers for NLP](#introduction-to-transformers-for-nlp)
-- [Bayesian Analysis with PyMC](#bayesian-analysis-with-pymc)
-- [Retrieval-Augmented Generation (RAG) for Research](#retrieval-augmented-generation-rag-for-research)
-- [Building Interactive Dashboards with Panel](#building-interactive-dashboards-with-panel)
-- [Causal Inference: Instrumental Variables (IV)](#causal-inference:-instrumental-variables-iv)
-- [Python Basics for Social Scientists](#python-basics-for-social-scientists)
-- [Pandas Manipulation Basics](#pandas-manipulation-basics)
-- [Data Visualization 101](#data-visualization-101)
+- [Introduction to Transformers for NLP In-Depth](#introduction-to-transformers-for-nlp-in-depth)
+- [Bayesian Analysis with PyMC In-Depth](#bayesian-analysis-with-pymc-in-depth)
+- [Retrieval-Augmented Generation (RAG) for Research In-Depth](#retrieval-augmented-generation-rag-for-research-in-depth)
+- [Building Interactive Dashboards with Panel In-Depth](#building-interactive-dashboards-with-panel-in-depth)
+- [Causal Inference: Instrumental Variables (IV) In-Depth](#causal-inference:-instrumental-variables-iv-in-depth)
+- [Python In-Depth for Social Scientists](#python-in-depth-for-social-scientists)
+- [Pandas Manipulation In-Depth](#pandas-manipulation-in-depth)
+- [Data Visualization In-Depth Guide](#data-visualization-in-depth-guide)
 - [Advanced ML: Gradient Boosting with XGBoost](#advanced-ml:-gradient-boosting-with-xgboost)
-- [Neural Networks for Tabular Data (PyTorch)](#neural-networks-for-tabular-data-pytorch)
-- [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
-- [MLOps: Model Persistence](#mlops:-model-persistence)
+- [Neural Networks for Tabular Data (PyTorch) In-Depth](#neural-networks-for-tabular-data-pytorch-in-depth)
+- [Exploratory Data Analysis (EDA) In-Depth](#exploratory-data-analysis-eda-in-depth)
+- [MLOps: Model Persistence In-Depth](#mlops:-model-persistence-in-depth)
 - [Hypothesis Testing Roadmap](#hypothesis-testing-roadmap)
-- [Audio Transcription with Whisper](#audio-transcription-with-whisper)
-- [Image Analysis Basics](#image-analysis-basics)
-- [Structural Equation Modeling (SEM)](#structural-equation-modeling-sem)
-- [A/B Testing and Power Analysis](#ab-testing-and-power-analysis)
-- [Conjoint Analysis (Rating-Based)](#conjoint-analysis-rating-based)
-- [Algorithmic Fairness Audit](#algorithmic-fairness-audit)
+- [Audio Transcription with Whisper In-Depth](#audio-transcription-with-whisper-in-depth)
+- [Image Analysis In-Depth](#image-analysis-in-depth)
+- [Structural Equation Modeling (SEM) In-Depth](#structural-equation-modeling-sem-in-depth)
+- [A/B Testing and Power Analysis In-Depth](#ab-testing-and-power-analysis-in-depth)
+- [Conjoint Analysis (Rating-Based) In-Depth](#conjoint-analysis-rating-based-in-depth)
+- [Algorithmic Fairness Audit In-Depth](#algorithmic-fairness-audit-in-depth)
 - [Advanced Topic Modeling with BERTopic](#advanced-topic-modeling-with-bertopic)
-- [Handling Large Datasets](#handling-large-datasets)
+- [Handling Large Datasets In-Depth](#handling-large-datasets-in-depth)
+- [Multimodal Analysis: Text and Image In-Depth](#multimodal-analysis:-text-and-image-in-depth)
+- [Recommender Systems In-Depth](#recommender-systems-in-depth)
+- [Explainable AI (XAI) with SHAP In-Depth](#explainable-ai-xai-with-shap-in-depth)
+- [Time Series Forecasting with Prophet In-Depth](#time-series-forecasting-with-prophet-in-depth)
+- [Qualitative Analysis with LLMs (Zero-Shot Classification) In-Depth](#qualitative-analysis-with-llms-zero-shot-classification-in-depth)
+- [Agentic AI Concepts: The ReAct Pattern In-Depth](#agentic-ai-concepts:-the-react-pattern-in-depth)
+- [Handling Imbalanced Datasets (SMOTE & ADASYN) In-Depth](#handling-imbalanced-datasets-smote-adasyn-in-depth)
+- [Bipartite Network Analysis (Affiliation Networks) In-Depth](#bipartite-network-analysis-affiliation-networks-in-depth)
 
 ---
 
@@ -211,7 +219,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Group Comparisons: T-tests & ANOVA
+### Group Comparisons: T-tests & ANOVA In-Depth
 
 **File:** `11_group_comparisons.ipynb`
 
@@ -247,7 +255,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Exploratory Factor Analysis (EFA)
+### Exploratory Factor Analysis (EFA) In-Depth
 
 **File:** `14_factor_analysis.ipynb`
 
@@ -259,11 +267,11 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Cluster Analysis
+### Cluster Analysis In-Depth
 
 **File:** `15_cluster_analysis.ipynb`
 
-**Description:** Segmenting data using K-Means.
+**Description:** Cluster analysis is an unsupervised machine learning technique used to group similar data points together. In social science, this is often used for **segmentation**—identifying distinct subgroups within a population (e.g., voters, consumers, survey respondents) without predefined labels. In this notebook, we will: 1.  Generate a realistic synthetic dataset of **Online Shoppers** (Age, Income, Spending Score). 2.  Preprocess the data (Standardization). 3.  Determine the optimal number of clusters using the **Elbow Method** and **Silhouette Analysis**. 4.  Perform **K-Means Clustering**. 5.  Visualize and interpret the resulting segments.
 
 **Status:** Verified ✅
 
@@ -271,7 +279,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Social Network Construction & Analysis
+### Social Network Construction & Analysis In-Depth
 
 **File:** `16_network_construction.ipynb`
 
@@ -283,11 +291,11 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Network Centrality Measures
+### Network Centrality Measures In-Depth
 
 **File:** `17_network_centrality.ipynb`
 
-**Description:** Calculating Degree, Betweenness, and Closeness centrality.
+**Description:** Centrality measures allow us to identify the most important nodes in a network. In social networks, these might be influencers, bridges between communities, or efficient communicators. In this notebook, we will: 1.  Generate a **Synthetic Social Network** (Scale-Free) using the Barabási-Albert model. 2.  Assign fictitious identities to nodes using `Faker`. 3.  Calculate key centrality measures: *   **Degree Centrality**: Popularity (number of connections). *   **Betweenness Centrality**: Control of information flow (bridges). *   **Closeness Centrality**: Efficiency (average distance to others). *   **Eigenvector Centrality**: Influence (connected to other well-connected nodes). 4.  Visualize the network highlighting influential nodes.
 
 **Status:** Verified ✅
 
@@ -295,7 +303,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Community Detection
+### Community Detection In-Depth
 
 **File:** `18_community_detection.ipynb`
 
@@ -307,7 +315,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Time Series Analysis
+### Time Series Analysis In-Depth
 
 **File:** `19_time_series_analysis.ipynb`
 
@@ -319,7 +327,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Geospatial Mapping
+### Geospatial Mapping In-Depth
 
 **File:** `20_geospatial_mapping.ipynb`
 
@@ -331,7 +339,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Automated Coding Assistant
+### Automated Coding Assistant In-Depth
 
 **File:** `21_auto_coding.ipynb`
 
@@ -343,7 +351,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Inter-rater Reliability
+### Inter-rater Reliability In-Depth
 
 **File:** `22_inter_rater_reliability.ipynb`
 
@@ -367,7 +375,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### API Data Collection
+### API Data Collection In-Depth
 
 **File:** `24_api_data_collection.ipynb`
 
@@ -379,7 +387,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Data Format Converter
+### Data Format Converter In-Depth
 
 **File:** `25_data_converter.ipynb`
 
@@ -391,7 +399,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Missing Data Imputation
+### Missing Data Imputation In-Depth
 
 **File:** `26_missing_data_imputation.ipynb`
 
@@ -403,7 +411,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Merge and Join Datasets
+### Merge and Join Datasets In-Depth
 
 **File:** `27_merge_datasets.ipynb`
 
@@ -427,7 +435,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Causal Inference: Propensity Score Matching (PSM)
+### Causal Inference: Propensity Score Matching (PSM) In-Depth
 
 **File:** `29_causal_inference.ipynb`
 
@@ -439,7 +447,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Model Evaluation Metrics
+### Model Evaluation Metrics In-Depth
 
 **File:** `30_model_evaluation.ipynb`
 
@@ -451,7 +459,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Multilevel Modeling (Hierarchical Linear Models)
+### Multilevel Modeling (Hierarchical Linear Models) In-Depth
 
 **File:** `31_multilevel_modeling.ipynb`
 
@@ -463,7 +471,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Survival Analysis
+### Survival Analysis In-Depth
 
 **File:** `32_survival_analysis.ipynb`
 
@@ -475,7 +483,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Difference-in-Differences (DiD)
+### Difference-in-Differences (DiD) In-Depth
 
 **File:** `33_difference_in_differences.ipynb`
 
@@ -487,7 +495,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Regression Discontinuity Design (RDD)
+### Regression Discontinuity Design (RDD) In-Depth
 
 **File:** `34_regression_discontinuity.ipynb`
 
@@ -499,7 +507,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Fixed Effects Model (Panel Data)
+### Fixed Effects Model (Panel Data) In-Depth
 
 **File:** `35_fixed_effects_panel.ipynb`
 
@@ -511,7 +519,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Mediation Analysis
+### Mediation Analysis In-Depth
 
 **File:** `36_mediation_analysis.ipynb`
 
@@ -523,7 +531,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Moderation Analysis
+### Moderation Analysis In-Depth
 
 **File:** `37_moderation_analysis.ipynb`
 
@@ -535,7 +543,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Meta-Analysis Visualization
+### Meta-Analysis Visualization In-Depth
 
 **File:** `38_meta_analysis.ipynb`
 
@@ -547,7 +555,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Document Similarity
+### Document Similarity In-Depth
 
 **File:** `39_document_similarity.ipynb`
 
@@ -559,7 +567,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Supervised Text Classification
+### Supervised Text Classification In-Depth
 
 **File:** `40_text_classification.ipynb`
 
@@ -571,7 +579,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Decision Tree Classifier
+### Decision Tree Classifier In-Depth
 
 **File:** `41_decision_tree.ipynb`
 
@@ -583,7 +591,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Random Forest Analysis
+### Random Forest Analysis In-Depth
 
 **File:** `42_random_forest.ipynb`
 
@@ -595,7 +603,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### K-Nearest Neighbors (KNN)
+### K-Nearest Neighbors (KNN) In-Depth
 
 **File:** `43_knn_classification.ipynb`
 
@@ -607,7 +615,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### PDF Text Extraction
+### PDF Text Extraction In-Depth
 
 **File:** `44_pdf_text_extraction.ipynb`
 
@@ -619,7 +627,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Nested JSON Flattening
+### Nested JSON Flattening In-Depth
 
 **File:** `45_json_flattening.ipynb`
 
@@ -643,7 +651,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Interactive Widgets
+### Interactive Widgets In-Depth
 
 **File:** `47_interactive_widgets.ipynb`
 
@@ -655,7 +663,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Data Anonymization & Privacy
+### Data Anonymization & Privacy In-Depth
 
 **File:** `48_data_anonymization.ipynb`
 
@@ -667,7 +675,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Multiple Imputation for Missing Data
+### Multiple Imputation for Missing Data In-Depth
 
 **File:** `49_multiple_imputation.ipynb`
 
@@ -679,7 +687,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Exporting Results
+### Exporting Results In-Depth
 
 **File:** `50_exporting_results.ipynb`
 
@@ -703,7 +711,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Mixed ANOVA (Split-Plot Design)
+### Mixed ANOVA (Split-Plot Design) In-Depth
 
 **File:** `52_mixed_anova.ipynb`
 
@@ -715,7 +723,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Signal Detection Theory (SDT)
+### Signal Detection Theory (SDT) In-Depth
 
 **File:** `53_signal_detection_theory.ipynb`
 
@@ -727,7 +735,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Reaction Time Analysis
+### Reaction Time Analysis In-Depth
 
 **File:** `54_reaction_time_analysis.ipynb`
 
@@ -739,7 +747,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Power Analysis
+### Power Analysis In-Depth
 
 **File:** `55_power_analysis.ipynb`
 
@@ -751,7 +759,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Reliability Analysis (Cronbach's Alpha)
+### Reliability Analysis (Cronbach's Alpha) In-Depth
 
 **File:** `56_reliability_analysis.ipynb`
 
@@ -763,7 +771,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Effect Size Calculation
+### Effect Size Calculation In-Depth
 
 **File:** `57_effect_sizes.ipynb`
 
@@ -775,7 +783,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Chi-Square Test of Independence
+### Chi-Square Test of Independence In-Depth
 
 **File:** `58_chi_square_test.ipynb`
 
@@ -787,7 +795,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Mediation Analysis with Bootstrapping
+### Mediation Analysis with Bootstrapping In-Depth
 
 **File:** `59_mediation_bootstrapped.ipynb`
 
@@ -799,7 +807,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Plotting Interaction Effects
+### Plotting Interaction Effects In-Depth
 
 **File:** `60_interaction_plots.ipynb`
 
@@ -815,7 +823,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 **File:** `61_data_analyst_roadmap.ipynb`
 
-**Description:** This notebook serves as a comprehensive guide through the Data Analyst Roadmap, mapping key concepts to practical Python implementations found within this repository. It is aligned with industry standard roadmaps (e.g., [roadmap.sh/data-analyst](https://roadmap.sh/data-analyst)) and covers everything from Excel foundations to Advanced Machine Learning. **Roadmap Sections:** 1.  Introduction & Types of Analytics 2.  Building a Strong Foundation (Excel Equivalents) 3.  Programming Languages (Python) 4.  Data Collection (Databases, APIs, Scraping) 5.  Data Cleanup (Handling Missing Data, Outliers) 6.  Exploratory Data Analysis (EDA) & Visualization 7.  Statistical Analysis 8.  Advanced Topics (Machine Learning, Deep Learning, Big Data) 9.  Projects & Portfolio 10. Soft Skills & Networking
+**Description:** This notebook serves as a comprehensive guide through the Data Analyst Roadmap, mapping key concepts to practical Python implementations found within this repository. It is aligned with industry standard roadmaps (e.g., [roadmap.sh/data-analyst](https://roadmap.sh/data-analyst)) and covers everything from Excel foundations to Advanced Machine Learning. **Roadmap Sections:** 1.  Introduction & Types of Analytics 2.  Building a Strong Foundation (Excel Equivalents) 3.  Programming Languages (Python vs R) 4.  Data Collection (Databases, APIs, Scraping) 5.  Data Cleanup (Handling Missing Data, Outliers) 6.  Exploratory Data Analysis (EDA) & Visualization 7.  Statistical Analysis 8.  Advanced Topics (Machine Learning, Big Data, Deep Learning) 9.  Projects & Portfolio 10. Online Courses & Certifications 11. Soft Skills & Networking
 
 **Status:** Verified ✅
 
@@ -823,11 +831,11 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### SQL for Data Analysts
+### SQL for Data Analysts In-Depth
 
 **File:** `62_sql_for_analysts.ipynb`
 
-**Description:** Structured Query Language (SQL) is the standard language for managing and manipulating relational databases. For a Data Analyst, it is often considered the most critical technical skill alongside Python/R. In this notebook, we will: 1.  Create a temporary SQLite database in memory. 2.  Populate it with synthetic social science data (Participants and Survey Responses). 3.  Perform essential SQL operations: `SELECT`, `WHERE`, `JOIN`, `GROUP BY`. 4.  Integrate SQL with Python using `pandas`.
+**Description:** Structured Query Language (SQL) is the standard language for managing and manipulating relational databases. For a Data Analyst, it is often considered the most critical technical skill alongside Python/R. In this notebook, we will: 1.  Create a temporary SQLite database in memory. 2.  Populate it with synthetic social science data (Participants and Survey Responses). 3.  Perform essential SQL operations: `SELECT`, `WHERE`, `JOIN`, `GROUP BY`. 4.  Explore advanced concepts: **Window Functions** and **CTEs**. 5.  Integrate SQL with Python using `pandas`.
 
 **Status:** Verified ✅
 
@@ -847,7 +855,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Introduction to Transformers for NLP
+### Introduction to Transformers for NLP In-Depth
 
 **File:** `64_intro_to_transformers.ipynb`
 
@@ -859,7 +867,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Bayesian Analysis with PyMC
+### Bayesian Analysis with PyMC In-Depth
 
 **File:** `65_bayesian_analysis_pymc.ipynb`
 
@@ -871,7 +879,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Retrieval-Augmented Generation (RAG) for Research
+### Retrieval-Augmented Generation (RAG) for Research In-Depth
 
 **File:** `66_rag_for_research.ipynb`
 
@@ -883,7 +891,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Building Interactive Dashboards with Panel
+### Building Interactive Dashboards with Panel In-Depth
 
 **File:** `67_dashboard_with_panel.ipynb`
 
@@ -895,7 +903,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Causal Inference: Instrumental Variables (IV)
+### Causal Inference: Instrumental Variables (IV) In-Depth
 
 **File:** `68_instrumental_variables.ipynb`
 
@@ -907,7 +915,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Python Basics for Social Scientists
+### Python In-Depth for Social Scientists
 
 **File:** `69_python_basics_for_social_scientists.ipynb`
 
@@ -919,7 +927,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Pandas Manipulation Basics
+### Pandas Manipulation In-Depth
 
 **File:** `70_pandas_manipulation_basics.ipynb`
 
@@ -931,7 +939,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Data Visualization 101
+### Data Visualization In-Depth Guide
 
 **File:** `71_data_visualization_101.ipynb`
 
@@ -955,7 +963,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Neural Networks for Tabular Data (PyTorch)
+### Neural Networks for Tabular Data (PyTorch) In-Depth
 
 **File:** `73_neural_networks_tabular.ipynb`
 
@@ -967,7 +975,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Exploratory Data Analysis (EDA)
+### Exploratory Data Analysis (EDA) In-Depth
 
 **File:** `74_exploratory_data_analysis.ipynb`
 
@@ -979,7 +987,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### MLOps: Model Persistence
+### MLOps: Model Persistence In-Depth
 
 **File:** `75_mlops_model_persistence.ipynb`
 
@@ -1003,7 +1011,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Audio Transcription with Whisper
+### Audio Transcription with Whisper In-Depth
 
 **File:** `77_audio_transcription.ipynb`
 
@@ -1015,7 +1023,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Image Analysis Basics
+### Image Analysis In-Depth
 
 **File:** `78_image_analysis_basics.ipynb`
 
@@ -1027,7 +1035,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Structural Equation Modeling (SEM)
+### Structural Equation Modeling (SEM) In-Depth
 
 **File:** `79_sem_structural_equation_modeling.ipynb`
 
@@ -1039,7 +1047,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### A/B Testing and Power Analysis
+### A/B Testing and Power Analysis In-Depth
 
 **File:** `80_ab_testing_basics.ipynb`
 
@@ -1051,7 +1059,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Conjoint Analysis (Rating-Based)
+### Conjoint Analysis (Rating-Based) In-Depth
 
 **File:** `81_conjoint_analysis.ipynb`
 
@@ -1063,7 +1071,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Algorithmic Fairness Audit
+### Algorithmic Fairness Audit In-Depth
 
 **File:** `82_fairness_audit_in_ai.ipynb`
 
@@ -1087,7 +1095,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Handling Large Datasets
+### Handling Large Datasets In-Depth
 
 **File:** `84_handling_large_datasets.ipynb`
 
@@ -1099,14 +1107,98 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Multimodal Analysis: Text and Image
+### Multimodal Analysis: Text and Image In-Depth
 
 **File:** `85_multimodal_analysis.ipynb`
 
-**Description:** This notebook introduces **Multimodal Analysis** using the **CLIP** model via Hugging Face `transformers`. It covers: 1. **Zero-Shot Image Classification**: Classifying images without specific training. 2. **Image-Text Matching**: correlating text and images. 3. **Synthetic Image Generation**: Creating simple images for testing purposes.
+**Description:** This notebook demonstrates **Multimodal Analysis** using the **CLIP (Contrastive Language-Image Pre-Training)** model via the Hugging Face `transformers` library. Multimodal analysis involves processing and correlating data from different modalities, such as text and images. This is increasingly relevant in social science for analyzing social media content (memes, posts with images). We will cover: 1.  **Zero-Shot Image Classification**: Classifying an image into categories without training a specific model for those categories. 2.  **Image-Text Matching**: Finding the best caption for an image from a list of options. 3.  **Synthetic Image Generation**: Creating simple images with text to test the model's capabilities.
 
 **Status:** Verified ✅
 
 [Open Notebook](social_science_research_notebooks/85_multimodal_analysis.ipynb)
+
+---
+
+### Recommender Systems In-Depth
+
+**File:** `86_recommender_systems_basics.ipynb`
+
+**Description:** Recommender systems are algorithms designed to suggest relevant items to users (e.g., movies to watch, books to read). They are fundamental to modern web applications. In this notebook, we will explore two primary techniques using a synthetic dataset of **Books** and **User Ratings**: 1.  **Content-Based Filtering**: Recommends items similar to those a user liked, based on item attributes (e.g., Book Descriptions). 2.  **Collaborative Filtering**: Recommends items based on the past interactions of similar users (e.g., Matrix Factorization).
+
+**Status:** Verified ✅
+
+[Open Notebook](social_science_research_notebooks/86_recommender_systems_basics.ipynb)
+
+---
+
+### Explainable AI (XAI) with SHAP In-Depth
+
+**File:** `87_explainable_ai_shap.ipynb`
+
+**Description:** This notebook explores **Explainable AI (XAI)** using the **SHAP (SHapley Additive exPlanations)** library. Machine learning models, especially complex ones like Random Forests or Neural Networks, are often "black boxes." SHAP values help us understand *why* a model made a specific prediction by quantifying the contribution of each feature. We will cover: 1.  **Synthetic Data Generation**: Creating a realistic "Credit Risk" dataset. 2.  **Model Training**: Training a Random Forest Classifier to predict default risk. 3.  **SHAP Explainer**: calculating SHAP values. 4.  **Global Interpretability**: Summary plots to see overall feature importance. 5.  **Local Interpretability**: Force plots to explain individual predictions. 6.  **Dependence Plots**: Understanding interaction effects between features.
+
+**Status:** Verified ✅
+
+[Open Notebook](social_science_research_notebooks/87_explainable_ai_shap.ipynb)
+
+---
+
+### Time Series Forecasting with Prophet In-Depth
+
+**File:** `88_time_series_forecasting_prophet.ipynb`
+
+**Description:** This notebook demonstrates time series forecasting using **Facebook Prophet**. Prophet is a procedure for forecasting time series data based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects. It works best with time series that have strong seasonal effects and several seasons of historical data. We will cover: 1.  **Synthetic Data Generation**: Creating a time series with trend and seasonality (e.g., website traffic). 2.  **Model Fitting**: Training the Prophet model. 3.  **Forecasting**: Predicting future values. 4.  **Component Analysis**: Decomposing the forecast into trend and seasonal components.
+
+**Status:** Verified ✅
+
+[Open Notebook](social_science_research_notebooks/88_time_series_forecasting_prophet.ipynb)
+
+---
+
+### Qualitative Analysis with LLMs (Zero-Shot Classification) In-Depth
+
+**File:** `89_qualitative_analysis_with_llms.ipynb`
+
+**Description:** Traditional qualitative coding is time-consuming. Large Language Models (LLMs) can automate the initial coding pass using Zero-Shot Classification. This notebook demonstrates how to categorize synthetic interview transcripts into themes without training a model. **Techniques:** 1.  **Synthetic Interview Generation**: Using `Faker` to simulate qualitative data. 2.  **Zero-Shot Classification**: Using Hugging Face `transformers` to assign themes. 3.  **Visualization**: Comparing predicted themes.
+
+**Status:** Verified ✅
+
+[Open Notebook](social_science_research_notebooks/89_qualitative_analysis_with_llms.ipynb)
+
+---
+
+### Agentic AI Concepts: The ReAct Pattern In-Depth
+
+**File:** `90_agentic_ai_concepts.ipynb`
+
+**Description:** Agentic AI goes beyond simple classification or prediction. Agents can *reason* about a problem, *act* by using tools, and *observe* the results to adjust their plan. This pattern is known as **ReAct (Reasoning + Acting)**. In this notebook, we build a **conceptual Agent** from scratch. Instead of using a paid API (like OpenAI), we use a "Mock LLM"—a simple function that simulates how a language model would respond to prompts—to demonstrate the architecture.
+
+**Status:** Verified ✅
+
+[Open Notebook](social_science_research_notebooks/90_agentic_ai_concepts.ipynb)
+
+---
+
+### Handling Imbalanced Datasets (SMOTE & ADASYN) In-Depth
+
+**File:** `91_imbalanced_learning.ipynb`
+
+**Description:** In social science, interesting events are often rare: protests, fraud, hate speech, or disease outbreaks. Standard machine learning models bias towards the majority class, often ignoring the minority class entirely. This notebook demonstrates how to solve this using **Resampling Techniques** from the `imbalanced-learn` library.
+
+**Status:** Verified ✅
+
+[Open Notebook](social_science_research_notebooks/91_imbalanced_learning.ipynb)
+
+---
+
+### Bipartite Network Analysis (Affiliation Networks) In-Depth
+
+**File:** `92_bipartite_network_analysis.ipynb`
+
+**Description:** Most social networks we study are "One-Mode" (Person-Person). However, data often comes in "Two-Mode" or **Bipartite** forms: People attending Events, Directors on Boards, or Authors on Papers. This notebook demonstrates how to handle these networks using `networkx`, specifically projecting them into one-mode networks to study the relationships implied by shared affiliations.
+
+**Status:** Verified ✅
+
+[Open Notebook](social_science_research_notebooks/92_bipartite_network_analysis.ipynb)
 
 ---
