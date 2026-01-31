@@ -96,6 +96,8 @@ This repository contains 88 Jupyter Notebooks designed to cover various aspects 
 90. **Agentic AI Concepts: ReAct Pattern**: `90_agentic_ai_concepts.ipynb`
 91. **Handling Imbalanced Datasets (SMOTE)**: `91_imbalanced_learning.ipynb`
 92. **Bipartite Network Analysis**: `92_bipartite_network_analysis.ipynb`
+93. **Synthetic Control Methods**: `93_synthetic_control_methods.ipynb`
+94. **Detecting AI-Generated Text**: `94_detecting_ai_generated_text.ipynb`
 
 ## Getting Started
 
