@@ -47,3 +47,4 @@ dask
 pyarrow
 shap
 imbalanced-learn
+polars
