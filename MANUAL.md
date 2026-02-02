@@ -49,7 +49,7 @@ This manual provides an overview of the tools available in this repository. All 
 - [K-Nearest Neighbors (KNN) In-Depth](#k-nearest-neighbors-knn-in-depth)
 - [PDF Text Extraction In-Depth](#pdf-text-extraction-in-depth)
 - [Nested JSON Flattening In-Depth](#nested-json-flattening-in-depth)
-- [Advanced Date and Time Handling](#advanced-date-and-time-handling)
+- [Advanced Date and Time Handling In-Depth](#advanced-date-and-time-handling-in-depth)
 - [Interactive Widgets In-Depth](#interactive-widgets-in-depth)
 - [Data Anonymization & Privacy In-Depth](#data-anonymization-privacy-in-depth)
 - [Multiple Imputation for Missing Data In-Depth](#multiple-imputation-for-missing-data-in-depth)
@@ -64,9 +64,9 @@ This manual provides an overview of the tools available in this repository. All 
 - [Chi-Square Test of Independence In-Depth](#chi-square-test-of-independence-in-depth)
 - [Mediation Analysis with Bootstrapping In-Depth](#mediation-analysis-with-bootstrapping-in-depth)
 - [Plotting Interaction Effects In-Depth](#plotting-interaction-effects-in-depth)
-- [Data Analyst Roadmap & Guide](#data-analyst-roadmap-guide)
+- [Data Analyst Roadmap & Guide In-Depth](#data-analyst-roadmap-guide-in-depth)
 - [SQL for Data Analysts In-Depth](#sql-for-data-analysts-in-depth)
-- [Advanced Visualization with Plotly](#advanced-visualization-with-plotly)
+- [Advanced Visualization with Plotly In-Depth](#advanced-visualization-with-plotly-in-depth)
 - [Introduction to Transformers for NLP In-Depth](#introduction-to-transformers-for-nlp-in-depth)
 - [Bayesian Analysis with PyMC In-Depth](#bayesian-analysis-with-pymc-in-depth)
 - [Retrieval-Augmented Generation (RAG) for Research In-Depth](#retrieval-augmented-generation-rag-for-research-in-depth)
@@ -75,18 +75,18 @@ This manual provides an overview of the tools available in this repository. All 
 - [Python In-Depth for Social Scientists](#python-in-depth-for-social-scientists)
 - [Pandas Manipulation In-Depth](#pandas-manipulation-in-depth)
 - [Data Visualization In-Depth Guide](#data-visualization-in-depth-guide)
-- [Advanced ML: Gradient Boosting with XGBoost](#advanced-ml:-gradient-boosting-with-xgboost)
+- [Advanced ML: Gradient Boosting with XGBoost In-Depth](#advanced-ml:-gradient-boosting-with-xgboost-in-depth)
 - [Neural Networks for Tabular Data (PyTorch) In-Depth](#neural-networks-for-tabular-data-pytorch-in-depth)
 - [Exploratory Data Analysis (EDA) In-Depth](#exploratory-data-analysis-eda-in-depth)
 - [MLOps: Model Persistence In-Depth](#mlops:-model-persistence-in-depth)
-- [Hypothesis Testing Roadmap](#hypothesis-testing-roadmap)
+- [Hypothesis Testing Roadmap In-Depth](#hypothesis-testing-roadmap-in-depth)
 - [Audio Transcription with Whisper In-Depth](#audio-transcription-with-whisper-in-depth)
 - [Image Analysis In-Depth](#image-analysis-in-depth)
 - [Structural Equation Modeling (SEM) In-Depth](#structural-equation-modeling-sem-in-depth)
 - [A/B Testing and Power Analysis In-Depth](#ab-testing-and-power-analysis-in-depth)
 - [Conjoint Analysis (Rating-Based) In-Depth](#conjoint-analysis-rating-based-in-depth)
 - [Algorithmic Fairness Audit In-Depth](#algorithmic-fairness-audit-in-depth)
-- [Advanced Topic Modeling with BERTopic](#advanced-topic-modeling-with-bertopic)
+- [Advanced Topic Modeling with BERTopic In-Depth](#advanced-topic-modeling-with-bertopic-in-depth)
 - [Handling Large Datasets In-Depth](#handling-large-datasets-in-depth)
 - [Multimodal Analysis: Text and Image In-Depth](#multimodal-analysis:-text-and-image-in-depth)
 - [Recommender Systems In-Depth](#recommender-systems-in-depth)
@@ -96,6 +96,8 @@ This manual provides an overview of the tools available in this repository. All 
 - [Agentic AI Concepts: The ReAct Pattern In-Depth](#agentic-ai-concepts:-the-react-pattern-in-depth)
 - [Handling Imbalanced Datasets (SMOTE & ADASYN) In-Depth](#handling-imbalanced-datasets-smote-adasyn-in-depth)
 - [Bipartite Network Analysis (Affiliation Networks) In-Depth](#bipartite-network-analysis-affiliation-networks-in-depth)
+- [Synthetic Control Methods (SCM) In-Depth](#synthetic-control-methods-scm-in-depth)
+- [Detecting AI-Generated Text In-Depth](#detecting-ai-generated-text-in-depth)
 
 ---
 
@@ -639,7 +641,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Advanced Date and Time Handling
+### Advanced Date and Time Handling In-Depth
 
 **File:** `46_advanced_datetime.ipynb`
 
@@ -819,7 +821,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Data Analyst Roadmap & Guide
+### Data Analyst Roadmap & Guide In-Depth
 
 **File:** `61_data_analyst_roadmap.ipynb`
 
@@ -843,7 +845,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Advanced Visualization with Plotly
+### Advanced Visualization with Plotly In-Depth
 
 **File:** `63_advanced_visualization_plotly.ipynb`
 
@@ -951,7 +953,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Advanced ML: Gradient Boosting with XGBoost
+### Advanced ML: Gradient Boosting with XGBoost In-Depth
 
 **File:** `72_advanced_ml_xgboost.ipynb`
 
@@ -999,7 +1001,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Hypothesis Testing Roadmap
+### Hypothesis Testing Roadmap In-Depth
 
 **File:** `76_hypothesis_testing_roadmap.ipynb`
 
@@ -1083,7 +1085,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 ---
 
-### Advanced Topic Modeling with BERTopic
+### Advanced Topic Modeling with BERTopic In-Depth
 
 **File:** `83_advanced_topic_modeling_bertopic.ipynb`
 
@@ -1200,5 +1202,29 @@ This manual provides an overview of the tools available in this repository. All 
 **Status:** Verified ✅
 
 [Open Notebook](social_science_research_notebooks/92_bipartite_network_analysis.ipynb)
+
+---
+
+### Synthetic Control Methods (SCM) In-Depth
+
+**File:** `93_synthetic_control_methods.ipynb`
+
+**Description:** The **Synthetic Control Method (SCM)** is a statistical method used to evaluate the effect of an intervention in comparative case studies. It involves constructing a weighted combination of control units (the "synthetic control") that best resembles the characteristics of the treated unit prior to the intervention. Imagine a city ("City A") implements a new tax policy in year 2010. We want to know the effect of this tax on **GDP per capita**. We have data for City A and 10 other cities that did *not* implement the tax. Instead of just comparing City A to the average of the other cities, we create a "Synthetic City A" which is a weighted average of the other cities, chosen to match City A's GDP trajectory *before* 2010.
+
+**Status:** Verified ✅
+
+[Open Notebook](social_science_research_notebooks/93_synthetic_control_methods.ipynb)
+
+---
+
+### Detecting AI-Generated Text In-Depth
+
+**File:** `94_detecting_ai_generated_text.ipynb`
+
+**Description:** As Large Language Models (LLMs) become ubiquitous, distinguishing between human and machine-generated text is a critical challenge in social science research. Common hypotheses: 1.  **Perplexity (PPL)**: AI models aim to maximize probability, so they often choose "safe", predictable words. This leads to *lower* perplexity than human text. 2.  **Burstiness**: Humans write with varying sentence structures (short, then long and complex). AI tends to be more monotonic. Burstiness measures the variation in perplexity. In this notebook, we will use a small model (**GPT-2**) to calculate these metrics on sample texts.
+
+**Status:** Verified ✅
+
+[Open Notebook](social_science_research_notebooks/94_detecting_ai_generated_text.ipynb)
 
 ---
