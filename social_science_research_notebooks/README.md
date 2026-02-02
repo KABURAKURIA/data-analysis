@@ -22,7 +22,7 @@ This repository contains 88 Jupyter Notebooks designed to cover various aspects 
 16. **Social Network Construction & Analysis**: `16_network_construction.ipynb`
 17. **Network Centrality Measures**: `17_network_centrality.ipynb`
 18. **Community Detection**: `18_community_detection.ipynb`
-19. **Time Series Analysis**: `19_time_series_analysis.ipynb`
+19. **Time Series Analysis (ARIMA)**: `19_time_series_analysis.ipynb`
 20. **Geospatial Mapping**: `20_geospatial_mapping.ipynb`
 21. **Automated Coding Assistant**: `21_auto_coding.ipynb`
 22. **Inter-rater Reliability**: `22_inter_rater_reliability.ipynb`
@@ -98,6 +98,8 @@ This repository contains 88 Jupyter Notebooks designed to cover various aspects 
 92. **Bipartite Network Analysis**: `92_bipartite_network_analysis.ipynb`
 93. **Synthetic Control Methods**: `93_synthetic_control_methods.ipynb`
 94. **Detecting AI-Generated Text**: `94_detecting_ai_generated_text.ipynb`
+95. **Graph Neural Networks (GNN) In-Depth**: `95_graph_neural_networks.ipynb`
+96. **High-Performance Data Analysis with Polars**: `96_polars_data_analysis.ipynb`
 
 ## Getting Started
 
