@@ -48,3 +48,7 @@ pyarrow
 shap
 imbalanced-learn
 polars
+pandera
+esda
+libpysal
+splot

@@ -100,6 +100,9 @@ This repository contains 88 Jupyter Notebooks designed to cover various aspects 
 94. **Detecting AI-Generated Text**: `94_detecting_ai_generated_text.ipynb`
 95. **Graph Neural Networks (GNN) In-Depth**: `95_graph_neural_networks.ipynb`
 96. **High-Performance Data Analysis with Polars**: `96_polars_data_analysis.ipynb`
+97. **Data Quality Validation with Pandera**: `97_data_quality_validation.ipynb`
+98. **Local LLMs for Research (No API Needed)**: `98_local_llms_for_research.ipynb`
+99. **Spatial Autocorrelation (Moran's I)**: `99_spatial_autocorrelation.ipynb`
 
 ## Getting Started
 
