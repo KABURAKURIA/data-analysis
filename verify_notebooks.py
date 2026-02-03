@@ -6,17 +6,32 @@ import sys
 
 NOTEBOOKS_DIR = 'social_science_research_notebooks'
 
-def verify_notebooks():
+def verify_notebooks(specific_notebooks=None):
     results = []
 
-    # List all .ipynb files
-    notebooks = [f for f in os.listdir(NOTEBOOKS_DIR) if f.endswith('.ipynb')]
-    notebooks.sort()
-
-    print(f"Found {len(notebooks)} notebooks. Starting verification...")
+    # Determine which notebooks to run
+    if specific_notebooks:
+        notebooks = []
+        for arg in specific_notebooks:
+            basename = os.path.basename(arg)
+            if basename.endswith('.ipynb'):
+                 notebooks.append(basename)
+        print(f"Verifying specific notebooks: {notebooks}")
+    else:
+        # List all .ipynb files
+        notebooks = [f for f in os.listdir(NOTEBOOKS_DIR) if f.endswith('.ipynb')]
+        notebooks.sort()
+        print(f"Found {len(notebooks)} notebooks. Starting verification...")
 
     for notebook_filename in notebooks:
         notebook_path = os.path.join(NOTEBOOKS_DIR, notebook_filename)
+
+        # Check if file exists (in case of bad arg)
+        if not os.path.exists(notebook_path):
+             print(f"WARNING: File {notebook_path} does not exist. Skipping.")
+             results.append({'name': notebook_filename, 'status': 'SKIPPED', 'error': 'File not found'})
+             continue
+
         print(f"Verifying {notebook_filename}...", end=' ', flush=True)
 
         try:
@@ -57,7 +72,14 @@ def generate_report(results):
             f.write(f"| {res['name']} | {res['status']} | {error_msg} |\n")
 
 if __name__ == "__main__":
-    results = verify_notebooks()
+    # Check for command line args (skipping the script name)
+    args = sys.argv[1:]
+
+    if args:
+        results = verify_notebooks(specific_notebooks=args)
+    else:
+        results = verify_notebooks()
+
     generate_report(results)
 
     # Exit with code 1 if any failures

@@ -59,7 +59,7 @@ def generate_manual():
                     nb = nbformat.read(nbf, as_version=4)
                     for cell in nb.cells:
                         if cell.cell_type == 'markdown':
-                            if '# License' in cell.source: # Skip license cell if it's first
+                            if 'License' in cell.source and 'MIT' in cell.source: # Skip license cell if it's first
                                 continue
 
                             lines = cell.source.split('\n')

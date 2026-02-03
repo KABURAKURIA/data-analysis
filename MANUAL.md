@@ -98,6 +98,11 @@ This manual provides an overview of the tools available in this repository. All 
 - [Bipartite Network Analysis (Affiliation Networks) In-Depth](#bipartite-network-analysis-affiliation-networks-in-depth)
 - [Synthetic Control Methods (SCM) In-Depth](#synthetic-control-methods-scm-in-depth)
 - [Detecting AI-Generated Text In-Depth](#detecting-ai-generated-text-in-depth)
+- [Graph Neural Networks (GNN) In-Depth](#graph-neural-networks-gnn-in-depth)
+- [High-Performance Data Analysis with Polars](#high-performance-data-analysis-with-polars)
+- [Data Quality Validation with Pandera](#data-quality-validation-with-pandera)
+- [Local LLMs for Research (No API Needed)](#local-llms-for-research-no-api-needed)
+- [Spatial Autocorrelation (Moran's I)](#spatial-autocorrelation-moran's-i)
 
 ---
 
@@ -321,7 +326,7 @@ This manual provides an overview of the tools available in this repository. All 
 
 **File:** `19_time_series_analysis.ipynb`
 
-**Description:** Analyzing trends and seasonality in time-series data.
+**Description:** Analyzing trends and seasonality in time-series data using classical statistical methods.
 
 **Status:** Verified ✅
 
@@ -1226,5 +1231,65 @@ This manual provides an overview of the tools available in this repository. All 
 **Status:** Verified ✅
 
 [Open Notebook](social_science_research_notebooks/94_detecting_ai_generated_text.ipynb)
+
+---
+
+### Graph Neural Networks (GNN) In-Depth
+
+**File:** `95_graph_neural_networks.ipynb`
+
+**Description:** This notebook demonstrates how to build a Graph Convolutional Network (GCN) from scratch using PyTorch to perform node classification on a synthetic Academic Citation Network.
+
+**Status:** Verified ✅
+
+[Open Notebook](social_science_research_notebooks/95_graph_neural_networks.ipynb)
+
+---
+
+### High-Performance Data Analysis with Polars
+
+**File:** `96_polars_data_analysis.ipynb`
+
+**Description:** Polars is a lightning-fast DataFrame library implemented in Rust and memory-efficient. This notebook demonstrates its syntax and performance advantages over Pandas for large datasets.
+
+**Status:** Verified ✅
+
+[Open Notebook](social_science_research_notebooks/96_polars_data_analysis.ipynb)
+
+---
+
+### Data Quality Validation with Pandera
+
+**File:** `97_data_quality_validation.ipynb`
+
+**Description:** In social science research, data quality is paramount. Manual checks are prone to error. `pandera` allows you to define a **schema** for your data and automatically validate it, catching errors early. This notebook covers: 1.  **Generating 'Dirty' Data**: Simulating real-world errors (typos, out-of-range values). 2.  **Defining a Schema**: specifying expected data types and constraints. 3.  **Validation**: Running checks and handling failures. 4.  **Cleaning & Re-validating**: Fixing the data to pass the schema.
+
+**Status:** Verified ✅
+
+[Open Notebook](social_science_research_notebooks/97_data_quality_validation.ipynb)
+
+---
+
+### Local LLMs for Research (No API Needed)
+
+**File:** `98_local_llms_for_research.ipynb`
+
+**Description:** Using proprietary APIs (like OpenAI) can be costly and raise privacy concerns. This notebook demonstrates how to run **local** Large Language Models (LLMs) on your own machine (or Colab) using the Hugging Face `transformers` library. We use `google/flan-t5-small`, a lightweight model capable of summarization, translation, and Q&A, which runs efficiently even on a CPU.
+
+**Status:** Verified ✅
+
+[Open Notebook](social_science_research_notebooks/98_local_llms_for_research.ipynb)
+
+---
+
+### Spatial Autocorrelation (Moran's I)
+
+**File:** `99_spatial_autocorrelation.ipynb`
+
+**Description:** Spatial autocorrelation measures how correlated a variable is with itself in space. -   **Positive**: High values cluster near high values (Hotspots). -   **Negative**: High values are near low values (Checkerboard). -   **Zero**: Random distribution. We will use **Moran's I** to quantify this on a synthetic grid.
+
+**Status:** Verified ✅
+
+[Open Notebook](social_science_research_notebooks/99_spatial_autocorrelation.ipynb)
 
 ---
