@@ -25,6 +25,13 @@ This notebook provides a comprehensive toolkit for analyzing exported WhatsApp c
 
 ---
 
+## Notebook: `02_sentiment_analysis.ipynb`
+
+# Sentiment Analysis In-Depth
+This notebook provides a deep dive into sentiment analysis using two popular libraries: TextBlob and NLTK (VADER). We will compare their performance on a comprehensive synthetic dataset of movie reviews, clean the text, and visualize the results.
+
+---
+
 ## Notebook: `03_topic_modeling.ipynb`
 
 # Topic Modeling (LDA) In-Depth
@@ -95,6 +102,26 @@ This notebook goes beyond basic summaries to explore robust statistics, distribu
 
 ---
 
+## Notebook: `100_capstone_project.ipynb`
+
+# Capstone Project: End-to-End Social Media Analysis
+
+This notebook represents a comprehensive workflow, taking you from raw data generation to advanced causal inference. It integrates skills learned throughout the previous notebooks.
+
+**Scenario:**
+You are a social scientist analyzing the impact of a new digital well-being policy introduced on **July 1st, 2023**.
+*   **Treatment Group**: Users in the "South" region (where the policy was enforced).
+*   **Control Group**: Users in the "North" region (no policy).
+*   **Outcome**: Sentiment of social media posts.
+
+**Steps:**
+1.  **Data Simulation**: Generating realistic text and metadata.
+2.  **Preprocessing**: Cleaning text and extracting sentiment.
+3.  **EDA**: Visualizing trends over time.
+4.  **Causal Inference**: Using Difference-in-Differences (DiD) to estimate the policy's effect.
+
+---
+
 ## Notebook: `10_likert_scale_analysis.ipynb`
 
 # Likert Scale Analysis In-Depth
@@ -129,6 +156,13 @@ This notebook covers linear regression with a focus on statistical inference and
 # Logistic Regression In-Depth
 
 Predicting binary outcomes (Voting Behavior) using Logistic Regression. We will use `statsmodels` for statistical inference (Odds Ratios) and `scikit-learn` for predictive evaluation.
+
+---
+
+## Notebook: `14_factor_analysis.ipynb`
+
+# Exploratory Factor Analysis (EFA) In-Depth
+This notebook demonstrates how to perform Exploratory Factor Analysis (EFA) to uncover latent structures in survey data. We use the `factor_analyzer` library to identify underlying factors (e.g., personality traits) from a set of observed variables (Likert items).
 
 ---
 
@@ -411,7 +445,7 @@ Handling complex JSON structures often found in social media API data.
 
 ## Notebook: `46_advanced_datetime.ipynb`
 
-# Advanced Date and Time Handling
+# Advanced Date and Time Handling In-Depth
 
 Handling timezones and calculating durations.
 
@@ -536,7 +570,7 @@ Visualizing 2-way and 3-way interactions using Seaborn.
 
 ## Notebook: `61_data_analyst_roadmap.ipynb`
 
-# Data Analyst Roadmap & Guide
+# Data Analyst Roadmap & Guide In-Depth
 
 This notebook serves as a comprehensive guide through the Data Analyst Roadmap, mapping key concepts to practical Python implementations found within this repository. It is aligned with industry standard roadmaps (e.g., [roadmap.sh/data-analyst](https://roadmap.sh/data-analyst)) and covers everything from Excel foundations to Advanced Machine Learning.
 
@@ -574,7 +608,7 @@ In this notebook, we will:
 
 ## Notebook: `63_advanced_visualization_plotly.ipynb`
 
-# Advanced Visualization with Plotly
+# Advanced Visualization with Plotly In-Depth
 
 While `matplotlib` and `seaborn` are excellent for static publications, `plotly` allows for interactive data exploration (zooming, hovering, filtering).
 
@@ -663,6 +697,89 @@ For example, let's say we want to study the effect of **Education** on **Income*
 
 ---
 
+## Notebook: `69_python_basics_for_social_scientists.ipynb`
+
+# Python In-Depth for Social Scientists
+
+This notebook covers the fundamental building blocks of Python programming: Variables, Data Structures (Lists, Dictionaries), Loops, and Functions. We will use social science examples (e.g., ages of participants) to make it practical.
+
+---
+
+## Notebook: `70_pandas_manipulation_basics.ipynb`
+
+# Pandas Manipulation In-Depth
+
+Pandas is the most powerful tool for tabular data manipulation in Python. Think of it as 'Excel on steroids'. This notebook covers DataFrames, Filtering, and Aggregation.
+
+---
+
+## Notebook: `71_data_visualization_101.ipynb`
+
+# Data Visualization In-Depth Guide
+
+This notebook introduces `matplotlib` and `seaborn` for creating publication-quality plots.
+
+---
+
+## Notebook: `72_advanced_ml_xgboost.ipynb`
+
+# Advanced ML: Gradient Boosting with XGBoost In-Depth
+
+XGBoost (eXtreme Gradient Boosting) is one of the most popular and efficient algorithms for structured (tabular) data. It often outperforms other algorithms like Random Forests.
+
+---
+
+## Notebook: `73_neural_networks_tabular.ipynb`
+
+# Neural Networks for Tabular Data (PyTorch) In-Depth
+
+While Deep Learning is famous for Images and NLP, it can also be used for tabular data. This notebook demonstrates how to build a simple Multi-Layer Perceptron (MLP) using PyTorch.
+
+---
+
+## Notebook: `74_exploratory_data_analysis.ipynb`
+
+# Exploratory Data Analysis (EDA) In-Depth
+
+A comprehensive workflow for inspecting, cleaning, and understanding your data before modeling.
+
+---
+
+## Notebook: `77_audio_transcription.ipynb`
+
+# Audio Transcription with Whisper In-Depth
+This notebook demonstrates how to transcribe audio using OpenAI's Whisper model and generate speech using gTTS.
+
+---
+
+## Notebook: `78_image_analysis_basics.ipynb`
+
+# Image Analysis In-Depth
+This notebook demonstrates how to load, process, and classify images using PyTorch and Torchvision.
+
+---
+
+## Notebook: `79_sem_structural_equation_modeling.ipynb`
+
+# Structural Equation Modeling (SEM) In-Depth
+This notebook demonstrates how to perform Structural Equation Modeling using `semopy`.
+
+---
+
+## Notebook: `80_ab_testing_basics.ipynb`
+
+# A/B Testing and Power Analysis In-Depth
+This notebook demonstrates how to design and analyze A/B tests using Python.
+
+---
+
+## Notebook: `81_conjoint_analysis.ipynb`
+
+# Conjoint Analysis (Rating-Based) In-Depth
+This notebook demonstrates how to perform a Rating-Based Conjoint Analysis. We will generate synthetic data representing consumer preferences for a product (e.g., a Smartphone) with varying attributes (Price, Brand, Storage) and estimate the utility of each attribute level using OLS regression.
+
+---
+
 ## Notebook: `82_fairness_audit_in_ai.ipynb`
 
 # Algorithmic Fairness Audit In-Depth
@@ -679,7 +796,7 @@ In this notebook, we will:
 
 ## Notebook: `83_advanced_topic_modeling_bertopic.ipynb`
 
-# Advanced Topic Modeling with BERTopic
+# Advanced Topic Modeling with BERTopic In-Depth
 
 Latent Dirichlet Allocation (LDA) (covered in notebook 03) is the classic method for topic modeling. However, it relies on a "Bag-of-Words" approach, ignoring the semantic meaning of words.
 
@@ -704,6 +821,19 @@ In this notebook, we explore strategies to handle large data:
 
 ---
 
+## Notebook: `85_multimodal_analysis.ipynb`
+
+# Multimodal Analysis: Text and Image In-Depth
+
+**Description:** This notebook demonstrates **Multimodal Analysis** using the **CLIP (Contrastive Language-Image Pre-Training)** model via the Hugging Face `transformers` library. Multimodal analysis involves processing and correlating data from different modalities, such as text and images. This is increasingly relevant in social science for analyzing social media content (memes, posts with images).
+
+We will cover:
+1.  **Zero-Shot Image Classification**: Classifying an image into categories without training a specific model for those categories.
+2.  **Image-Text Matching**: Finding the best caption for an image from a list of options.
+3.  **Synthetic Image Generation**: Creating simple images with text to test the model's capabilities.
+
+---
+
 ## Notebook: `86_recommender_systems_basics.ipynb`
 
 # Recommender Systems In-Depth
@@ -714,6 +844,36 @@ In this notebook, we will explore two primary techniques using a synthetic datas
 
 1.  **Content-Based Filtering**: Recommends items similar to those a user liked, based on item attributes (e.g., Book Descriptions).
 2.  **Collaborative Filtering**: Recommends items based on the past interactions of similar users (e.g., Matrix Factorization).
+
+---
+
+## Notebook: `87_explainable_ai_shap.ipynb`
+
+# Explainable AI (XAI) with SHAP In-Depth
+
+**Description:** This notebook explores **Explainable AI (XAI)** using the **SHAP (SHapley Additive exPlanations)** library. Machine learning models, especially complex ones like Random Forests or Neural Networks, are often "black boxes." SHAP values help us understand *why* a model made a specific prediction by quantifying the contribution of each feature.
+
+We will cover:
+1.  **Synthetic Data Generation**: Creating a realistic "Credit Risk" dataset.
+2.  **Model Training**: Training a Random Forest Classifier to predict default risk.
+3.  **SHAP Explainer**: calculating SHAP values.
+4.  **Global Interpretability**: Summary plots to see overall feature importance.
+5.  **Local Interpretability**: Force plots to explain individual predictions.
+6.  **Dependence Plots**: Understanding interaction effects between features.
+
+---
+
+## Notebook: `88_time_series_forecasting_prophet.ipynb`
+
+# Time Series Forecasting with Prophet In-Depth
+
+**Description:** This notebook demonstrates time series forecasting using **Facebook Prophet**. Prophet is a procedure for forecasting time series data based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects. It works best with time series that have strong seasonal effects and several seasons of historical data.
+
+We will cover:
+1.  **Synthetic Data Generation**: Creating a time series with trend and seasonality (e.g., website traffic).
+2.  **Model Fitting**: Training the Prophet model.
+3.  **Forecasting**: Predicting future values.
+4.  **Component Analysis**: Decomposing the forecast into trend and seasonal components.
 
 ---
 
@@ -762,7 +922,7 @@ This notebook demonstrates how to handle these networks using `networkx`, specif
 
 ## Notebook: `93_synthetic_control_methods.ipynb`
 
-# Synthetic Control Methods (SCM)
+# Synthetic Control Methods (SCM) In-Depth
 
 The **Synthetic Control Method (SCM)** is a statistical method used to evaluate the effect of an intervention in comparative case studies. It involves constructing a weighted combination of control units (the "synthetic control") that best resembles the characteristics of the treated unit prior to the intervention.
 
@@ -776,7 +936,7 @@ Instead of just comparing City A to the average of the other cities, we create a
 
 ## Notebook: `94_detecting_ai_generated_text.ipynb`
 
-# Detecting AI-Generated Text
+# Detecting AI-Generated Text In-Depth
 
 As Large Language Models (LLMs) become ubiquitous, distinguishing between human and machine-generated text is a critical challenge in social science research.
 
@@ -802,5 +962,42 @@ This notebook demonstrates how to build a Graph Convolutional Network (GCN) from
 # High-Performance Data Analysis with Polars
 
 Polars is a lightning-fast DataFrame library implemented in Rust and memory-efficient. This notebook demonstrates its syntax and performance advantages over Pandas for large datasets.
+
+---
+
+## Notebook: `97_data_quality_validation.ipynb`
+
+# Data Quality Validation with Pandera
+
+In social science research, data quality is paramount. Manual checks are prone to error. `pandera` allows you to define a **schema** for your data and automatically validate it, catching errors early.
+
+This notebook covers:
+1.  **Generating 'Dirty' Data**: Simulating real-world errors (typos, out-of-range values).
+2.  **Defining a Schema**: specifying expected data types and constraints.
+3.  **Validation**: Running checks and handling failures.
+4.  **Cleaning & Re-validating**: Fixing the data to pass the schema.
+
+---
+
+## Notebook: `98_local_llms_for_research.ipynb`
+
+# Local LLMs for Research (No API Needed)
+
+Using proprietary APIs (like OpenAI) can be costly and raise privacy concerns. This notebook demonstrates how to run **local** Large Language Models (LLMs) on your own machine (or Colab) using the Hugging Face `transformers` library.
+
+We use `google/flan-t5-small`, a lightweight model capable of summarization, translation, and Q&A, which runs efficiently even on a CPU.
+
+---
+
+## Notebook: `99_spatial_autocorrelation.ipynb`
+
+# Spatial Autocorrelation (Moran's I)
+
+Spatial autocorrelation measures how correlated a variable is with itself in space.
+-   **Positive**: High values cluster near high values (Hotspots).
+-   **Negative**: High values are near low values (Checkerboard).
+-   **Zero**: Random distribution.
+
+We will use **Moran's I** to quantify this on a synthetic grid.
 
 ---

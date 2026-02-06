@@ -1,6 +1,6 @@
 # Social Science Research Notebooks
 
-This repository contains 88 Jupyter Notebooks designed to cover various aspects of social science research, including data cleaning, analysis, and visualization. These notebooks are designed to handle multiple forms of data.
+This repository contains 100 Jupyter Notebooks designed to cover various aspects of social science research, including data cleaning, analysis, and visualization. These notebooks are designed to handle multiple forms of data.
 
 ## Notebooks List
 
@@ -103,6 +103,7 @@ This repository contains 88 Jupyter Notebooks designed to cover various aspects 
 97. **Data Quality Validation with Pandera**: `97_data_quality_validation.ipynb`
 98. **Local LLMs for Research (No API Needed)**: `98_local_llms_for_research.ipynb`
 99. **Spatial Autocorrelation (Moran's I)**: `99_spatial_autocorrelation.ipynb`
+100. **Capstone Project: End-to-End Social Media Analysis**: `100_capstone_project.ipynb`
 
 ## Getting Started
 
