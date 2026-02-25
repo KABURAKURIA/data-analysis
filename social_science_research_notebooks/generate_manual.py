@@ -1,10 +1,11 @@
 import nbformat
 import glob
 import os
+import re
 
 def generate_manual():
     # Find all notebooks
-    notebooks = sorted(glob.glob("*.ipynb"))
+    notebooks = sorted(glob.glob("*.ipynb"), key=lambda x: int(re.match(r'^(\d+)_', x).group(1)) if re.match(r'^(\d+)_', x) else float('inf'))
 
     manual_lines = [
         "# Social Science Research Notebooks Manual",
