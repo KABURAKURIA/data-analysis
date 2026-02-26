@@ -102,26 +102,6 @@ This notebook goes beyond basic summaries to explore robust statistics, distribu
 
 ---
 
-## Notebook: `100_capstone_project.ipynb`
-
-# Capstone Project: End-to-End Social Media Analysis
-
-This notebook represents a comprehensive workflow, taking you from raw data generation to advanced causal inference. It integrates skills learned throughout the previous notebooks.
-
-**Scenario:**
-You are a social scientist analyzing the impact of a new digital well-being policy introduced on **July 1st, 2023**.
-*   **Treatment Group**: Users in the "South" region (where the policy was enforced).
-*   **Control Group**: Users in the "North" region (no policy).
-*   **Outcome**: Sentiment of social media posts.
-
-**Steps:**
-1.  **Data Simulation**: Generating realistic text and metadata.
-2.  **Preprocessing**: Cleaning text and extracting sentiment.
-3.  **EDA**: Visualizing trends over time.
-4.  **Causal Inference**: Using Difference-in-Differences (DiD) to estimate the policy's effect.
-
----
-
 ## Notebook: `10_likert_scale_analysis.ipynb`
 
 # Likert Scale Analysis In-Depth
@@ -999,5 +979,25 @@ Spatial autocorrelation measures how correlated a variable is with itself in spa
 -   **Zero**: Random distribution.
 
 We will use **Moran's I** to quantify this on a synthetic grid.
+
+---
+
+## Notebook: `100_capstone_project.ipynb`
+
+# Capstone Project: End-to-End Social Media Analysis
+
+This notebook represents a comprehensive workflow, taking you from raw data generation to advanced causal inference. It integrates skills learned throughout the previous notebooks.
+
+**Scenario:**
+You are a social scientist analyzing the impact of a new digital well-being policy introduced on **July 1st, 2023**.
+*   **Treatment Group**: Users in the "South" region (where the policy was enforced).
+*   **Control Group**: Users in the "North" region (no policy).
+*   **Outcome**: Sentiment of social media posts.
+
+**Steps:**
+1.  **Data Simulation**: Generating realistic text and metadata.
+2.  **Preprocessing**: Cleaning text and extracting sentiment.
+3.  **EDA**: Visualizing trends over time.
+4.  **Causal Inference**: Using Difference-in-Differences (DiD) to estimate the policy's effect.
 
 ---
