@@ -5,7 +5,8 @@ import re
 
 def generate_manual():
     # Find all notebooks
-    notebooks = sorted(glob.glob("*.ipynb"), key=lambda x: int(re.match(r'^(\d+)_', x).group(1)) if re.match(r'^(\d+)_', x) else float('inf'))
+    # Look in the social_science_research_notebooks directory since we are running from root
+    notebooks = sorted(glob.glob("social_science_research_notebooks/*.ipynb"), key=lambda x: int(re.match(r'^.*?(\d+)_', x).group(1)) if re.match(r'^.*?(\d+)_', x) else float('inf'))
 
     manual_lines = [
         "# Social Science Research Notebooks Manual",
@@ -29,7 +30,9 @@ def generate_manual():
                     content = cell.source
 
                     # Add Notebook Filename as a kicker/header
-                    manual_lines.append(f"## Notebook: `{nb_path}`")
+                    # Use only the filename, not the full path
+                    filename = os.path.basename(nb_path)
+                    manual_lines.append(f"## Notebook: `{filename}`")
                     manual_lines.append("")
 
                     # Clean up content if needed (e.g. remove redundant 'Description:')
@@ -42,7 +45,8 @@ def generate_manual():
         except Exception as e:
             print(f"Error processing {nb_path}: {e}")
 
-    with open("MANUAL.md", "w", encoding='utf-8') as f:
+    # Write MANUAL.md to the social_science_research_notebooks directory
+    with open("social_science_research_notebooks/MANUAL.md", "w", encoding='utf-8') as f:
         f.write("\n".join(manual_lines))
 
     print(f"Generated MANUAL.md from {len(notebooks)} notebooks.")
