@@ -13,7 +13,6 @@ This manual provides an overview of the tools available in this repository. All 
 - [Text Preprocessing Pipeline In-Depth](#text-preprocessing-pipeline-in-depth)
 - [Survey Data Cleaning: An In-Depth Guide](#survey-data-cleaning:-an-in-depth-guide)
 - [Descriptive Statistics In-Depth](#descriptive-statistics-in-depth)
-- [Capstone Project: End-to-End Social Media Analysis](#capstone-project:-end-to-end-social-media-analysis)
 - [Likert Scale Analysis In-Depth](#likert-scale-analysis-in-depth)
 - [Group Comparisons: T-tests & ANOVA In-Depth](#group-comparisons:-t-tests-anova-in-depth)
 - [Linear Regression Analysis In-Depth](#linear-regression-analysis-in-depth)
@@ -104,6 +103,7 @@ This manual provides an overview of the tools available in this repository. All 
 - [Data Quality Validation with Pandera](#data-quality-validation-with-pandera)
 - [Local LLMs for Research (No API Needed)](#local-llms-for-research-no-api-needed)
 - [Spatial Autocorrelation (Moran's I)](#spatial-autocorrelation-moran's-i)
+- [Capstone Project: End-to-End Social Media Analysis](#capstone-project:-end-to-end-social-media-analysis)
 
 ---
 
@@ -212,18 +212,6 @@ This manual provides an overview of the tools available in this repository. All 
 **Status:** Verified ✅
 
 [Open Notebook](social_science_research_notebooks/09_descriptive_stats.ipynb)
-
----
-
-### Capstone Project: End-to-End Social Media Analysis
-
-**File:** `100_capstone_project.ipynb`
-
-**Description:** This notebook represents a comprehensive workflow, taking you from raw data generation to advanced causal inference. It integrates skills learned throughout the previous notebooks. **Scenario:** You are a social scientist analyzing the impact of a new digital well-being policy introduced on **July 1st, 2023**. *   **Treatment Group**: Users in the "South" region (where the policy was enforced). *   **Control Group**: Users in the "North" region (no policy). *   **Outcome**: Sentiment of social media posts. **Steps:** 1.  **Data Simulation**: Generating realistic text and metadata. 2.  **Preprocessing**: Cleaning text and extracting sentiment. 3.  **EDA**: Visualizing trends over time. 4.  **Causal Inference**: Using Difference-in-Differences (DiD) to estimate the policy's effect.
-
-**Status:** Verified ✅
-
-[Open Notebook](social_science_research_notebooks/100_capstone_project.ipynb)
 
 ---
 
@@ -1304,5 +1292,17 @@ This manual provides an overview of the tools available in this repository. All 
 **Status:** Verified ✅
 
 [Open Notebook](social_science_research_notebooks/99_spatial_autocorrelation.ipynb)
+
+---
+
+### Capstone Project: End-to-End Social Media Analysis
+
+**File:** `100_capstone_project.ipynb`
+
+**Description:** This notebook represents a comprehensive workflow, taking you from raw data generation to advanced causal inference. It integrates skills learned throughout the previous notebooks. **Scenario:** You are a social scientist analyzing the impact of a new digital well-being policy introduced on **July 1st, 2023**. *   **Treatment Group**: Users in the "South" region (where the policy was enforced). *   **Control Group**: Users in the "North" region (no policy). *   **Outcome**: Sentiment of social media posts. **Steps:** 1.  **Data Simulation**: Generating realistic text and metadata. 2.  **Preprocessing**: Cleaning text and extracting sentiment. 3.  **EDA**: Visualizing trends over time. 4.  **Causal Inference**: Using Difference-in-Differences (DiD) to estimate the policy's effect.
+
+**Status:** Verified ✅
+
+[Open Notebook](social_science_research_notebooks/100_capstone_project.ipynb)
 
 ---
