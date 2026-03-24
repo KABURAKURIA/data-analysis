@@ -7,7 +7,7 @@ MANUAL_FILE = 'MANUAL.md'
 
 def generate_manual():
     notebooks = [f for f in os.listdir(NOTEBOOKS_DIR) if f.endswith('.ipynb')]
-    notebooks.sort()
+    notebooks.sort(key=lambda f: int(re.match(r'(\d+)_', f).group(1)))
 
     with open(MANUAL_FILE, 'w') as f:
         f.write("# Social Science Research Notebooks Manual\n\n")
